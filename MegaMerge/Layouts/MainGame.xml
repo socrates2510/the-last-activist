@@ -31,602 +31,6 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Layer 0" sid="9881695179759682">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Basura_vidrio" uid="1">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>771</x>
-                        <y>202</y>
-                        <z>0</z>
-                        <width>44.36214447</width>
-                        <height>44.36214447</height>
-                        <depth>0</depth>
-                        <hotspotX>1.137254953</hotspotX>
-                        <hotspotY>1.147058845</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_orga" uid="3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>283</x>
-                        <y>234</y>
-                        <z>0</z>
-                        <width>47.833042145</width>
-                        <height>47.833042145</height>
-                        <depth>0</depth>
-                        <hotspotX>0.833333313</hotspotX>
-                        <hotspotY>0.715686262</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_metal" uid="4">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>649</x>
-                        <y>102</y>
-                        <z>0</z>
-                        <width>48.928520203</width>
-                        <height>48.928520203</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_inorga" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>351</x>
-                        <y>110</y>
-                        <z>0</z>
-                        <width>50.911689758</width>
-                        <height>50.911689758</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Player" uid="0">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="CustomMovement">
-                            <properties>
-                                <stepping-mode>Linear</stepping-mode>
-                                <pixels-per-step>5</pixels-per-step>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>494</x>
-                        <y>480</y>
-                        <z>0</z>
-                        <width>71.807037354</width>
-                        <height>59.743450165</height>
-                        <depth>0</depth>
-                        <hotspotX>0.927999973</hotspotX>
-                        <hotspotY>1.009615421</hotspotY>
-                        <angle>0.006220183</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="barra_vidrio" uid="6">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>42</x>
-                        <y>114</y>
-                        <z>0</z>
-                        <width>0</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0.004</hotspotX>
-                        <hotspotY>0.476000011</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="barra_orga" uid="7">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>42</x>
-                        <y>161</y>
-                        <z>0</z>
-                        <width>0</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.004</hotspotX>
-                        <hotspotY>0.479999989</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="barra_metal" uid="8">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>43</x>
-                        <y>214</y>
-                        <z>0</z>
-                        <width>0</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0.004</hotspotX>
-                        <hotspotY>0.483999997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="barra_inorga" uid="9">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>45</x>
-                        <y>265</y>
-                        <z>0</z>
-                        <width>0</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.004</hotspotX>
-                        <hotspotY>0.479999989</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="obstaculos" uid="10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>418</x>
-                        <y>233</y>
-                        <z>0</z>
-                        <width>70.313583374</width>
-                        <height>62.463039398</height>
-                        <depth>0</depth>
-                        <hotspotX>0.519417465</hotspotX>
-                        <hotspotY>0.508196712</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="obstaculos" uid="11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>634</x>
-                        <y>345</y>
-                        <z>0</z>
-                        <width>70.313583374</width>
-                        <height>62.463039398</height>
-                        <depth>0</depth>
-                        <hotspotX>0.519417465</hotspotX>
-                        <hotspotY>0.508196712</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_orga" uid="12">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>464</x>
-                        <y>73</y>
-                        <z>0</z>
-                        <width>47.833042145</width>
-                        <height>47.833042145</height>
-                        <depth>0</depth>
-                        <hotspotX>0.833333313</hotspotX>
-                        <hotspotY>0.715686262</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_inorga" uid="13">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>333</x>
-                        <y>402</y>
-                        <z>0</z>
-                        <width>50.911689758</width>
-                        <height>50.911689758</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_metal" uid="14">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>629</x>
-                        <y>207</y>
-                        <z>0</z>
-                        <width>48.928520203</width>
-                        <height>48.928520203</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_vidrio" uid="15">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>793</x>
-                        <y>409</y>
-                        <z>0</z>
-                        <width>44.36214447</width>
-                        <height>44.36214447</height>
-                        <depth>0</depth>
-                        <hotspotX>1.137254953</hotspotX>
-                        <hotspotY>1.147058845</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="obstaculos" uid="16">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>548</x>
-                        <y>54</y>
-                        <z>0</z>
-                        <width>70.313583374</width>
-                        <height>62.463039398</height>
-                        <depth>0</depth>
-                        <hotspotX>0.519417465</hotspotX>
-                        <hotspotY>0.508196712</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_orga" uid="17">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>549</x>
-                        <y>317</y>
-                        <z>0</z>
-                        <width>47.833042145</width>
-                        <height>47.833042145</height>
-                        <depth>0</depth>
-                        <hotspotX>0.833333313</hotspotX>
-                        <hotspotY>0.715686262</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_metal" uid="18">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>741</x>
-                        <y>282</y>
-                        <z>0</z>
-                        <width>48.928520203</width>
-                        <height>48.928520203</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_vidrio" uid="19">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>799</x>
-                        <y>145</y>
-                        <z>0</z>
-                        <width>44.36214447</width>
-                        <height>44.36214447</height>
-                        <depth>0</depth>
-                        <hotspotX>1.137254953</hotspotX>
-                        <hotspotY>1.147058845</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_orga" uid="20">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>217</x>
-                        <y>332</y>
-                        <z>0</z>
-                        <width>47.833042145</width>
-                        <height>47.833042145</height>
-                        <depth>0</depth>
-                        <hotspotX>0.833333313</hotspotX>
-                        <hotspotY>0.715686262</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_inorga" uid="21">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>381</x>
-                        <y>194</y>
-                        <z>0</z>
-                        <width>50.911689758</width>
-                        <height>50.911689758</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="obstaculos" uid="22">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>832</x>
-                        <y>266</y>
-                        <z>0</z>
-                        <width>70.313583374</width>
-                        <height>62.463039398</height>
-                        <depth>0</depth>
-                        <hotspotX>0.519417465</hotspotX>
-                        <hotspotY>0.508196712</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_vidrio" uid="23">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>513</x>
-                        <y>186</y>
-                        <z>0</z>
-                        <width>44.36214447</width>
-                        <height>44.36214447</height>
-                        <depth>0</depth>
-                        <hotspotX>1.137254953</hotspotX>
-                        <hotspotY>1.147058845</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_inorga" uid="24">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>734</x>
-                        <y>448</y>
-                        <z>0</z>
-                        <width>50.911689758</width>
-                        <height>50.911689758</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Basura_metal" uid="25">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>467</x>
-                        <y>374</y>
-                        <z>0</z>
-                        <width>48.928520203</width>
-                        <height>48.928520203</height>
-                        <depth>0</depth>
-                        <hotspotX>0.892156839</hotspotX>
-                        <hotspotY>0.892156839</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
         <layer name="UI" sid="8569720448861911">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -661,7 +65,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="pared2" uid="2">
+                <instance type="pared2" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -690,7 +94,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pared1" uid="26">
+                <instance type="pared1" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -719,7 +123,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une1" uid="27">
+                <instance type="une1" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -761,7 +165,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une2" uid="28">
+                <instance type="une2" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -803,7 +207,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="personaje" uid="29">
+                <instance type="personaje" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -841,7 +245,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une3" uid="30">
+                <instance type="une3" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -883,7 +287,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="avalancha" uid="31">
+                <instance type="avalancha" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -924,7 +328,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="32">
+                <instance type="Player" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -937,14 +341,6 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="CustomMovement">
-                            <properties>
-                                <stepping-mode>None</stepping-mode>
-                                <pixels-per-step>5</pixels-per-step>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Flash" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -955,13 +351,13 @@
                         <width>40</width>
                         <height>40</height>
                         <depth>0</depth>
-                        <hotspotX>0.927999973</hotspotX>
-                        <hotspotY>1.009615421</hotspotY>
+                        <hotspotX>0.324999988</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>-1.57079649</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroOrganico" uid="33">
+                <instance type="BasureroOrganico" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -999,7 +395,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroMetal" uid="34">
+                <instance type="BasureroMetal" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1037,7 +433,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroInorganico" uid="35">
+                <instance type="BasureroInorganico" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1075,7 +471,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroVidrio" uid="36">
+                <instance type="BasureroVidrio" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1113,7 +509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Star" uid="37">
+                <instance type="Star" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1147,7 +543,7 @@
         </layer>
     </layers>
     <nonworld-instances>
-        <instance type="Array" uid="38">
+        <instance type="Array" uid="13">
             <properties>
                 <width>10</width>
                 <height>1</height>
