@@ -7,7 +7,80 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="6289212109446249" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="4" name="Set animation" sid="1766823383720678" type="Sprite">
+                    <param id="0" name="Animation">&quot;Corriendo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2825533003984936">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3723850811297172" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="6078369815673035" type="Sprite">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight - AREA_PC_OFFSET_Y - AREA_PC_ALTO + VelocidadPC * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="5462524071070202" type="Sprite">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y - VelocidadPC * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5446533487275208">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1768239905632171" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="3239825993153655" type="Sprite">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight - AREA_PC_OFFSET_Y - VelocidadPC * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="139114556889739" type="Sprite">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y + VelocidadPC * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6328758617283988">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9615595904183985" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="1058760842890851" type="Sprite">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">(LayoutWidth - AREA_PC_ANCHO) / 2 + VelocidadPC * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9334585510027173" type="Sprite">
+                    <param id="0" name="X">Self.X - VelocidadPC * dt</param>
+                    <param id="1" name="Y">Self.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8661880965950367">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4505484314500998" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="3898424209603605" type="Sprite">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">(LayoutWidth + AREA_PC_ANCHO) / 2 - VelocidadPC * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="3046257330822411" type="Sprite">
+                    <param id="0" name="X">Self.X + VelocidadPC * dt</param>
+                    <param id="1" name="Y">Self.Y</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
