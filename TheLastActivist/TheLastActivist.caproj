@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -234,6 +235,27 @@
         <object-type name="Mouse" sid="3351270417193394">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="Sprite2" sid="3875202950838938">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9814971606158798" speed="5">
+                    <frame duration="1" hotspotX="0.500405" hotspotY="0.500383" original-source="C:\Users\apizarro\Downloads\avalanche_garbage.png">
+                        <collision-poly>
+                            <point x="0.148178" y="0.14023" />
+                            <point x="0.499595" y="0.00383142" />
+                            <point x="0.846964" y="0.144828" />
+                            <point x="0.989474" y="0.499617" />
+                            <point x="0.902834" y="0.908046" />
+                            <point x="0.097166" y="0.908046" />
+                            <point x="0.00161943" y="0.499617" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="5150081392975576">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -245,12 +267,32 @@
         <event-sheet>Parallax.xml</event-sheet>
         <event-sheet>PC.xml</event-sheet>
         <event-sheet>StartScreenEvents.xml</event-sheet>
+        <event-sheet>Avalancha.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="17" />
         <global-instance type="Mouse" uid="18" />
+        <global-instance type="Audio" uid="20">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="BACK_GROUND3.m4a" />
+        <file name="BACK_GROUND3.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

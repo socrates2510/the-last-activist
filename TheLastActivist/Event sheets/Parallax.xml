@@ -64,5 +64,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1826430837318748">
+            <conditions>
+                <condition id="-29" name="On load complete" sid="4179748914390026" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4239390450766918" type="Audio">
+                    <param id="0" name="Audio file">BACK_GROUND3</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">40</param>
+                    <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
