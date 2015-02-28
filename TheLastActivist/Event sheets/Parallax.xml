@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Parallax</name>
+    <events>
+        <event-block sid="1358725826421669">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="9679158941053354" type="Ground">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">809</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9169368440060105" type="Ground">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y - 539*3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3341071858111042">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2280950358131402" type="LeftSprite">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">634</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="1839835761352781" type="LeftSprite">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y - 189*5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4594324683456683">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="8221526761579707" type="RightTrees">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">634</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="520945466842134" type="RightTrees">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y - 189*5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5529434283156763">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="4146461399468256" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="5516142141520892" type="Ground">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y + GlobalSpeed*dt</param>
+                </action>
+                <action id="-3" name="Set position" sid="6211158330264673" type="LeftSprite">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y + GlobalSpeed*dt</param>
+                </action>
+                <action id="-3" name="Set position" sid="2775061270609739" type="RightTrees">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y + GlobalSpeed*dt</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

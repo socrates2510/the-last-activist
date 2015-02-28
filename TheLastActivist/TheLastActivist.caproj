@@ -9,7 +9,9 @@
     <app-id>com.cetav.thelastactivist</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>19500</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -25,7 +27,7 @@
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen in browser">Off</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
         <prop name="Orientations">Landscape</prop>
@@ -35,13 +37,147 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Ground" sid="1676616189705443">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6894487288467758" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\bg_base.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RightTrees" sid="443061095931939">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5306348028275712" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\right_trees.png">
+                        <collision-poly>
+                            <point x="0.0595238" y="0.0263158" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0595238" y="0.973684" />
+                            <point x="0.380952" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LeftSprite" sid="6924269247981779">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373483135407166" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\left_trees.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0.131579" />
+                            <point x="0.690476" y="0.136842" />
+                            <point x="0.154762" y="0.5" />
+                            <point x="0.571429" y="0.810526" />
+                            <point x="0.5" y="0.857895" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="9291153456913734">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8547851565098841" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Corriendo" pingpong="0" repeatcount="1" repeatto="0" sid="6002776351341614" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
+                        <collision-poly>
+                            <point x="0.097561" y="0.145455" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.731707" y="0.4" />
+                            <point x="0.914634" y="0.490909" />
+                            <point x="0.804878" y="0.709091" />
+                            <point x="0.5" y="0.709091" />
+                            <point x="0.268293" y="0.6" />
+                            <point x="0.146341" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Muerte" pingpong="0" repeatcount="1" repeatto="0" sid="4773210739027439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="BotarIzq" pingpong="0" repeatcount="1" repeatto="0" sid="2418185241243078" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="BotarDer" pingpong="0" repeatcount="1" repeatto="0" sid="6823145011073451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>MainGame.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainGameEvents.xml</event-sheet>
+        <event-sheet>Parallax.xml</event-sheet>
+        <event-sheet>PC.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
