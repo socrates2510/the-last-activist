@@ -4,6 +4,7 @@
     <name>MainGameEvents</name>
     <events>
         <variable comment="Global World Speed" constant="0" name="GlobalSpeed" sid="4153829412183678" static="0" type="number">500</variable>
+        <include>StartScreenEvents</include>
         <include>Parallax</include>
     </events>
 </c2eventsheet>
