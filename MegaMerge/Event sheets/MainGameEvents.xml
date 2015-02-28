@@ -40,55 +40,6 @@
                 </action>
             </actions>
         </event-block>
-        <comment>Destroy any enemies which make it to the bottom of the screen and leave the layout.</comment>
-        <event-block sid="8897117551655264">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="2332420313760621" type="BasureroInorganico">
-                    <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
-                </condition>
-                <condition id="-4" name="Is outside layout" sid="9213885116753943" type="BasureroInorganico" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="7585167055033698" type="BasureroInorganico" />
-            </actions>
-        </event-block>
-        <event-block sid="8578348499857149">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="6745748841958002" type="BasureroMetal">
-                    <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
-                </condition>
-                <condition id="-4" name="Is outside layout" sid="8056245412104465" type="BasureroMetal" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="1886759990397004" type="BasureroMetal" />
-            </actions>
-        </event-block>
-        <event-block sid="7987921191641058">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="466584459771831" type="BasureroOrganico">
-                    <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
-                </condition>
-                <condition id="-4" name="Is outside layout" sid="45019416629347" type="BasureroOrganico" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="3544968848584778" type="BasureroOrganico" />
-            </actions>
-        </event-block>
-        <event-block sid="8663299055365286">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="2244488893653084" type="BasureroVidrio">
-                    <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
-                </condition>
-                <condition id="-4" name="Is outside layout" sid="407891598788631" type="BasureroVidrio" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="4818159776499188" type="BasureroVidrio" />
-            </actions>
-        </event-block>
         <comment>Codigo para que la estrella siga al jugador y quede detras de el</comment>
         <event-block sid="8327183005885686">
             <conditions>

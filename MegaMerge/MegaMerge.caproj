@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>TheLastActivist</name>
+    <name>MegaMerge</name>
     <description>Corriendo hacia su libertad, un activista se aleja de su inminente muerte a cargo de una avalancha de basura.</description>
     <version>1.0</version>
     <author>A Cachete reventao</author>
@@ -18,6 +18,7 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
         <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
@@ -76,6 +77,9 @@
                 <behavior-type name="Bullet" sid="1515464835247552">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="42579585857556">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7202602364547284" speed="5">
@@ -113,6 +117,9 @@
                 <behavior-type name="Bullet" sid="8358426687714983">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="1635555765632922">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="33634931902618" speed="5">
@@ -137,6 +144,9 @@
                 <behavior-type name="Bullet" sid="5370641372013769">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="8588108790573645">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6347236051675404" speed="5">
@@ -160,6 +170,9 @@
             <behaviors>
                 <behavior-type name="Bullet" sid="9716018120626909">
                     <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="6287791857080956">
+                    <behavior id="destroy" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
