@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>MegaMerge</name>
     <description>Corriendo hacia su libertad, un activista se aleja de su inminente muerte a cargo de una avalancha de basura.</description>
@@ -45,148 +45,6 @@
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Player" sid="9048894097603179">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="BoundToLayout" sid="1545853323275167">
-                    <behavior id="bound" />
-                </behavior-type>
-                <behavior-type name="CustomMovement" sid="6494409781453257">
-                    <behavior id="custom" />
-                </behavior-type>
-                <behavior-type name="Flash" sid="230421186930401">
-                    <behavior id="Flash" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5404262669973348" speed="5">
-                    <frame duration="1" hotspotX="0.928" hotspotY="1.00962" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Text" sid="5104385446370895">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Keyboard" sid="1792970413207692">
-            <plugin id="Keyboard" />
-        </object-type>
-        <object-type name="Sprite2" sid="2586046814163222">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="966814357768953" speed="5">
-                    <frame duration="1" hotspotX="2.27778" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="2645859462528452">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5708792240587624" speed="5">
-                    <frame duration="1" hotspotX="2.27778" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="498912260372463">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="1663820116260576">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1194538633930194" speed="5">
-                    <frame duration="1" hotspotX="1.80303" hotspotY="0.529412" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Basura_vidrio" sid="3182272330367371">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3260990961601243" speed="5">
-                    <frame duration="1" hotspotX="1.13725" hotspotY="1.14706" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Basura_orga" sid="7983179561866408">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7355226944719041" speed="5">
-                    <frame duration="1" hotspotX="0.833333" hotspotY="0.715686" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite" sid="6985818603813739">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7737245368168677" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Basura_metal" sid="7609033977214859">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1310666210059606" speed="5">
-                    <frame duration="1" hotspotX="0.892157" hotspotY="0.892157" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Basura_inorga" sid="9229691266880759">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8986332500599189" speed="5">
-                    <frame duration="1" hotspotX="0.892157" hotspotY="0.892157" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="ProgressBar" sid="2915037493656146">
-            <plugin id="progressbar" />
-        </object-type>
-        <object-type name="barra_vidrio" sid="8041622076381196">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3091304300903053" speed="5">
-                    <frame duration="1" hotspotX="0.004" hotspotY="0.476" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="barra_orga" sid="8711329723218101">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2183499649150686" speed="5">
-                    <frame duration="1" hotspotX="-0.004" hotspotY="0.48" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="barra_metal" sid="9773353303003173">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320055258035089" speed="5">
-                    <frame duration="1" hotspotX="0.004" hotspotY="0.484" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="barra_inorga" sid="3658961261076445">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1090687062250088" speed="5">
-                    <frame duration="1" hotspotX="-0.004" hotspotY="0.48" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="obstaculos" sid="418692065572354">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Flash" sid="1745550173522476">
-                    <behavior id="Flash" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2462222940809327" speed="5">
-                    <frame duration="1" hotspotX="0.519417" hotspotY="0.508197" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Player2" sid="6496144744846501">
             <plugin id="Sprite" />
             <behaviors>
@@ -357,7 +215,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite22" sid="5952948425411868">
+        <object-type name="Sprite2" sid="5952948425411868">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7467326883404636" speed="5">

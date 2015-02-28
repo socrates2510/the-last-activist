@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainGameEvents</name>
+    <events>
+        <variable constant="0" name="basuraInorganica" sid="3996398372107521" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraOrganica" sid="2783193547495157" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraMetal" sid="6435862602470472" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraVidrio" sid="2663450478812629" static="0" type="number">0</variable>
+        <comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
+        <event-block sid="955226323518756">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="1368472832197539" type="Touch" />
+                <condition id="-8" name="Compare two values" sid="7318517829314415" type="System">
+                    <param id="0" name="First value">distance(Player.X, Player.Y, Touch.X, Touch.Y)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">600 * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="1899138118327043" type="Player">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Touch.X, Touch.Y)</param>
+                    <param id="1" name="Distance">600 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Every 2 seconds make a new enemy spawn at a random horizontal position at the top of the screen.</comment>
+        <event-block sid="519866503292908">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4914840124745534" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8018626711171234" type="System">
+                    <param id="0" name="Object to create">BasureroInorganico</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="X">random(30, 450)</param>
+                    <param id="3" name="Y">-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Codigo para que la estrella siga al jugador y quede detras de el</comment>
+        <event-block sid="8327183005885686">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="1850157863350071" type="System">
+                    <param id="0" name="First value">distance(Star.X, Star.Y, Player.X, Player.Y + 100)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">200 * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="5656203001349964" type="Star">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Player.X, Player.Y + 100)</param>
+                    <param id="1" name="Distance">400 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8095408384094976">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2207660472170614" type="personaje">
+                    <param id="0" name="Object">une1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8198389987011442" type="une1">
+                    <param id="0" name="Instance variable">follow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="1184306219540517" type="une1">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2478366519743306">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="7461519931634215" type="une1">
+                    <param id="0" name="Instance variable">follow</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="4814743471679668" type="System">
+                    <param id="0" name="First value">distance (une1.X, une1.Y, personaje.X, personaje.Y +100) </param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">300 *dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="9971255754357781" type="une1">
+                    <param id="0" name="Angle">angle(self.X, Self.Y, personaje.X, personaje.Y +100)</param>
+                    <param id="1" name="Distance">300 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9485151939917305">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7543587698213962" type="personaje">
+                    <param id="0" name="Object">une2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="5103355807821109" type="une2">
+                    <param id="0" name="Instance variable">follow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="1840148339987951" type="une2">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="765263172791067">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3996251559115938" type="une2">
+                    <param id="0" name="Instance variable">follow</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="3487860480233463" type="System">
+                    <param id="0" name="First value">distance(une2.X, une2.Y, personaje.X, personaje.Y +50)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">300 * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="8090754547772796" type="une2">
+                    <param id="0" name="Angle">angle(Self.X, self.Y, personaje.X, personaje.Y +50)</param>
+                    <param id="1" name="Distance">300 *dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="782278854396447">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2221632599966905" type="personaje">
+                    <param id="0" name="Object">une3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="1004522305292464" type="une3">
+                    <param id="0" name="Instance variable">follow</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="3741020189349305" type="une3">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4095007947510913">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="9642062249857267" type="une3">
+                    <param id="0" name="Instance variable">follow</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="5387117821824702" type="System">
+                    <param id="0" name="First value">distance(une3.X, une3.Y, personaje.X, personaje.Y + 150)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">300 *dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="9306117589714378" type="une3">
+                    <param id="0" name="Angle">angle(self.X, self.Y, personaje.X, personaje.Y +150)</param>
+                    <param id="1" name="Distance">300 *dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4738431995875263">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2010017229978787" type="avalancha">
+                    <param id="0" name="Object">une3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6441088139067276" type="une3" />
+            </actions>
+        </event-block>
+        <event-block sid="2708500794934697">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9707225376532092" type="avalancha">
+                    <param id="0" name="Object">une2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6315045989828375" type="une2" />
+            </actions>
+        </event-block>
+        <event-block sid="3736833598143802">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7593947078249969" type="avalancha">
+                    <param id="0" name="Object">une1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="495708682472543" type="une1" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -3,11 +3,177 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MainGameEvents</name>
     <events>
-        <variable constant="0" name="basuraInorganica" sid="3996398372107521" static="0" type="number">0</variable>
-        <variable constant="0" name="basuraOrganica" sid="2783193547495157" static="0" type="number">0</variable>
-        <variable constant="0" name="basuraMetal" sid="6435862602470472" static="0" type="number">0</variable>
-        <variable constant="0" name="basuraVidrio" sid="2663450478812629" static="0" type="number">0</variable>
-        <comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
+        <variable constant="0" name="cant_vidrio" sid="3859087605448525" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_orga" sid="2919785066582251" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_metal" sid="7668935786033493" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_inorga" sid="4446062916484201" static="0" type="number">0</variable>
+        
+        <event-group description="" sid="3403031164657899" title="MOVE">
+            <sub-events>
+                <event-block sid="2645099173244517">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="9754194689458087" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="9305996309117889" type="Player">
+                            <param id="0" name="X">Player.X-7.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="249606614919037">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="6714200792199121" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="9128534109266022" type="Player">
+                            <param id="0" name="X">Player.X+7.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1692499026422612">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="2049334392601058" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="8942989063068041" type="Player">
+                            <param id="0" name="Y">Player.Y-7.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6380433441321855">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="7632093268210496" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="6462024642264628" type="Player">
+                            <param id="0" name="Y">Player.Y+7.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5308620465912969" title="BASURA Y BARRAS">
+            <sub-events>
+                <event-block sid="2846148125640804">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="3683992974734106" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-5" name="Set width" sid="3304542101263383" type="barra_vidrio">
+                            <param id="0" name="Width">cant_vidrio</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="5742384066529422" type="barra_orga">
+                            <param id="0" name="Width">cant_orga</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="8867087540971465" type="barra_metal">
+                            <param id="0" name="Width">cant_metal</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="9023775103587723" type="barra_inorga">
+                            <param id="0" name="Width">cant_inorga</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7380071995994683">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="1415913332810555" type="Basura_vidrio">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-21" name="Is between values" sid="5763866427910289" type="System">
+                            <param id="0" name="Value">cant_vidrio</param>
+                            <param id="1" name="Lower bound">0</param>
+                            <param id="2" name="Upper bound">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="8922459499947552" type="System">
+                            <param id="0" name="Variable">cant_vidrio</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="6812127546443" type="Basura_vidrio" />
+                    </actions>
+                </event-block>
+                <event-block sid="1369649882349857">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="6156205595008562" type="Basura_orga">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-21" name="Is between values" sid="7965730620762031" type="System">
+                            <param id="0" name="Value">cant_orga</param>
+                            <param id="1" name="Lower bound">0</param>
+                            <param id="2" name="Upper bound">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="7381764978067258" type="System">
+                            <param id="0" name="Variable">cant_orga</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="8442339466112227" type="Basura_orga" />
+                    </actions>
+                </event-block>
+                <event-block sid="4681245984672895">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="572400404541362" type="Basura_metal">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-21" name="Is between values" sid="7437535267868014" type="System">
+                            <param id="0" name="Value">cant_metal</param>
+                            <param id="1" name="Lower bound">0</param>
+                            <param id="2" name="Upper bound">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="1352291658940223" type="System">
+                            <param id="0" name="Variable">cant_metal</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="5642048752750993" type="Basura_metal" />
+                    </actions>
+                </event-block>
+                <event-block sid="1918316156223005">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="825327457564469" type="Basura_inorga">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-21" name="Is between values" sid="7938082542791461" type="System">
+                            <param id="0" name="Value">cant_inorga</param>
+                            <param id="1" name="Lower bound">0</param>
+                            <param id="2" name="Upper bound">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="1443687198438655" type="System">
+                            <param id="0" name="Variable">cant_inorga</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2897700442968657" type="Basura_inorga" />
+                    </actions>
+                </event-block>
+                <event-block sid="8952304016810194">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="4451383384038392" type="obstaculos">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="5819026593917566" type="Player">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+		<comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
         <event-block sid="955226323518756">
             <conditions>
                 <condition id="2" name="Is in touch" sid="1368472832197539" type="Touch" />
