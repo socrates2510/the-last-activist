@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
+        <layout active="1" order="0">MainGame</layout>
+        <event-sheet order="1">MainGameEvents</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,14 +27,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Player/" />
-        <folder expanded="1" path="animation-folder/Bullet/" />
         <folder expanded="1" path="animation-folder/BasureroInorganico/" />
-        <folder expanded="1" path="animation-folder/EnemyBullet/" />
         <folder expanded="1" path="animation-folder/Star/" />
         <folder expanded="1" path="animation-folder/BasureroOrganico/" />
         <folder expanded="1" path="animation-folder/BasureroMetal/" />
         <folder expanded="1" path="animation-folder/BasureroVidrio/" />
+        <folder expanded="1" path="animation-folder/personaje/" />
+        <folder expanded="1" path="animation-folder/pared2/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/pared1/" />
+        <folder expanded="1" path="animation-folder/une1/" />
+        <folder expanded="1" path="animation-folder/une2/" />
+        <folder expanded="1" path="animation-folder/une3/" />
+        <folder expanded="1" path="animation-folder/avalancha/" />
     </folders-expanded>
 </c2uistate>
