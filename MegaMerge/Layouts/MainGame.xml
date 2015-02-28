@@ -13,6 +13,24 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
+        <layer name="Background" sid="593261609540084">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
         <layer name="Layer 0" sid="9881695179759682">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -609,24 +627,6 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Background" sid="593261609540084">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances />
-            <effects />
-        </layer>
         <layer name="UI" sid="8569720448861911">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -661,7 +661,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="pared2" uid="6">
+                <instance type="pared2" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -690,7 +690,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pared1" uid="7">
+                <instance type="pared1" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -719,7 +719,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une1" uid="8">
+                <instance type="une1" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -761,7 +761,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une2" uid="9">
+                <instance type="une2" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -803,7 +803,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="personaje" uid="10">
+                <instance type="personaje" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -841,7 +841,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="une3" uid="11">
+                <instance type="une3" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -883,7 +883,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="avalancha" uid="12">
+                <instance type="avalancha" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -924,7 +924,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="3">
+                <instance type="Player" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -937,6 +937,14 @@
                                 <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="CustomMovement">
+                            <properties>
+                                <stepping-mode>None</stepping-mode>
+                                <pixels-per-step>5</pixels-per-step>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Flash" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -947,13 +955,13 @@
                         <width>40</width>
                         <height>40</height>
                         <depth>0</depth>
-                        <hotspotX>0.324999988</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.927999973</hotspotX>
+                        <hotspotY>1.009615421</hotspotY>
                         <angle>-1.57079649</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroOrganico" uid="1">
+                <instance type="BasureroOrganico" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -991,7 +999,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroMetal" uid="2">
+                <instance type="BasureroMetal" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1029,7 +1037,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroInorganico" uid="4">
+                <instance type="BasureroInorganico" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1067,7 +1075,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BasureroVidrio" uid="0">
+                <instance type="BasureroVidrio" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1105,7 +1113,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Star" uid="5">
+                <instance type="Star" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1139,7 +1147,7 @@
         </layer>
     </layers>
     <nonworld-instances>
-        <instance type="Array" uid="13">
+        <instance type="Array" uid="38">
             <properties>
                 <width>10</width>
                 <height>1</height>

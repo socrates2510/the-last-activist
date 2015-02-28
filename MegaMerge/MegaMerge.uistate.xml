@@ -29,6 +29,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Basura_vidrio/" />
+        <folder expanded="1" path="animation-folder/Basura_orga/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Basura_metal/" />
+        <folder expanded="1" path="animation-folder/Basura_inorga/" />
+        <folder expanded="1" path="animation-folder/barra_vidrio/" />
+        <folder expanded="1" path="animation-folder/barra_orga/" />
+        <folder expanded="1" path="animation-folder/barra_metal/" />
+        <folder expanded="1" path="animation-folder/barra_inorga/" />
+        <folder expanded="1" path="animation-folder/obstaculos/" />
+        <folder expanded="1" path="animation-folder/Player2/" />
         <folder expanded="1" path="animation-folder/BasureroInorganico/" />
         <folder expanded="1" path="animation-folder/Star/" />
         <folder expanded="1" path="animation-folder/BasureroOrganico/" />
@@ -36,7 +50,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BasureroVidrio/" />
         <folder expanded="1" path="animation-folder/personaje/" />
         <folder expanded="1" path="animation-folder/pared2/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite22/" />
         <folder expanded="1" path="animation-folder/pared1/" />
         <folder expanded="1" path="animation-folder/une1/" />
         <folder expanded="1" path="animation-folder/une2/" />

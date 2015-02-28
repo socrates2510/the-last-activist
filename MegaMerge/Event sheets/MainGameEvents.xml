@@ -7,7 +7,6 @@
         <variable constant="0" name="cant_orga" sid="2919785066582251" static="0" type="number">0</variable>
         <variable constant="0" name="cant_metal" sid="7668935786033493" static="0" type="number">0</variable>
         <variable constant="0" name="cant_inorga" sid="4446062916484201" static="0" type="number">0</variable>
-        
         <event-group description="" sid="3403031164657899" title="MOVE">
             <sub-events>
                 <event-block sid="2645099173244517">
@@ -173,7 +172,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-		<comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
+        <comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
         <event-block sid="955226323518756">
             <conditions>
                 <condition id="2" name="Is in touch" sid="1368472832197539" type="Touch" />
