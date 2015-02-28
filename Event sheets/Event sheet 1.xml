@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="basuraInorganica" sid="3996398372107521" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraOrganica" sid="2783193547495157" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraMetal" sid="6435862602470472" static="0" type="number">0</variable>
+        <variable constant="0" name="basuraVidrio" sid="2663450478812629" static="0" type="number">0</variable>
+        <comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
+        <event-block sid="955226323518756">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="1368472832197539" type="Touch" />
+                <condition id="-8" name="Compare two values" sid="7318517829314415" type="System">
+                    <param id="0" name="First value">distance(Player.X, Player.Y, Touch.X, Touch.Y)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">600 * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="1899138118327043" type="Player">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Touch.X, Touch.Y)</param>
+                    <param id="1" name="Distance">600 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Every 2 seconds make a new enemy spawn at a random horizontal position at the top of the screen.</comment>
+        <event-block sid="519866503292908">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4914840124745534" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8018626711171234" type="System">
+                    <param id="0" name="Object to create">BasureroInorganico</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="X">random(30, 450)</param>
+                    <param id="3" name="Y">-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Destroy any enemies which make it to the bottom of the screen and leave the layout.</comment>
+        <event-block sid="8897117551655264">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2332420313760621" type="BasureroInorganico">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+                <condition id="-4" name="Is outside layout" sid="9213885116753943" type="BasureroInorganico" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7585167055033698" type="BasureroInorganico" />
+            </actions>
+        </event-block>
+        <event-block sid="8578348499857149">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="6745748841958002" type="BasureroMetal">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+                <condition id="-4" name="Is outside layout" sid="8056245412104465" type="BasureroMetal" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1886759990397004" type="BasureroMetal" />
+            </actions>
+        </event-block>
+        <event-block sid="7987921191641058">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="466584459771831" type="BasureroOrganico">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+                <condition id="-4" name="Is outside layout" sid="45019416629347" type="BasureroOrganico" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3544968848584778" type="BasureroOrganico" />
+            </actions>
+        </event-block>
+        <event-block sid="8663299055365286">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2244488893653084" type="BasureroVidrio">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+                <condition id="-4" name="Is outside layout" sid="407891598788631" type="BasureroVidrio" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4818159776499188" type="BasureroVidrio" />
+            </actions>
+        </event-block>
+        <comment>Codigo para que la estrella siga al jugador y quede detras de el</comment>
+        <event-block sid="8327183005885686">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="1850157863350071" type="System">
+                    <param id="0" name="First value">distance(Star.X, Star.Y, Player.X, Player.Y + 100)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">200 * dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="5656203001349964" type="Star">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Player.X, Player.Y + 100)</param>
+                    <param id="1" name="Distance">400 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
