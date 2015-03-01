@@ -11,12 +11,12 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="3892315530559275" type="System">
-                    <param id="0" name="Object to create">inorganic</param>
+                    <param id="0" name="Object to create">organic</param>
                     <param id="1" name="Layer">&quot;Basura&quot;</param>
                     <param id="2" name="X">random(800,160)</param>
                     <param id="3" name="Y">-20</param>
                 </action>
-                <action id="4" name="Set animation" sid="7781015435061249" type="inorganic">
+                <action id="4" name="Set animation" sid="7781015435061249" type="organic">
                     <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
                     <param id="1" name="From">1</param>
                 </action>
