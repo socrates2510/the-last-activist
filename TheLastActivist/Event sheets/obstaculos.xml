@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>obstaculos</name>
@@ -53,7 +53,7 @@
                 </action>
                 <action id="-9" name="Set value" sid="7415358708181342" type="System">
                     <param id="0" name="Variable">GlobalSpeed</param>
-                    <param id="1" name="Value">GlobalInicialSpeed</param>
+                    <param id="1" name="Value">GlobalInitialSpeed</param>
                 </action>
             </actions>
         </event-block>

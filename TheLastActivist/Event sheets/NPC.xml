@@ -84,7 +84,6 @@
                 <action id="-9" name="Destroy" sid="1134226516900813" type="follower" />
                 <action id="-2" name="Set Y" sid="7296150010561531" type="Avalanch">
                     <param id="0" name="Y">Avalanch.Y+40</param>
-
                 </action>
             </actions>
         </event-block>

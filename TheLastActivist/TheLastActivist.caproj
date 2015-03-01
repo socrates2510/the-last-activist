@@ -30,7 +30,7 @@
     </configurations>
     <window-size>
         <width>960</width>
-        <height>540</height>
+        <height>640</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -512,7 +512,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="8">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
                         <collision-poly>
                             <point x="0.097561" y="0.145455" />
                             <point x="0.5" y="0.0181818" />
@@ -522,10 +522,9 @@
                             <point x="0.5" y="0.709091" />
                             <point x="0.268293" y="0.6" />
                             <point x="0.158537" y="0.490909" />
-
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0" hotspotY="0.492063" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
+                    <frame duration="1" hotspotX="0" hotspotY="0.490909" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
                         <collision-poly>
                             <point x="0.258824" y="0.349206" />
                             <point x="0.494118" y="0.15873" />
@@ -847,6 +846,86 @@
                             <point x="0.5" y="0.965517" />
                             <point x="0.160714" y="0.844828" />
                             <point x="0.0357143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Animals" sid="4933468375457178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="anim1" pingpong="0" repeatcount="1" repeatto="0" sid="6451353758070544" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla01.png">
+                        <collision-poly>
+                            <point x="0.152941" y="0.295455" />
+                            <point x="0.494118" y="0.25" />
+                            <point x="0.705882" y="0.5" />
+                            <point x="0.741176" y="0.5" />
+                            <point x="0.494118" y="0.863636" />
+                            <point x="0.176471" y="0.659091" />
+                            <point x="0.176471" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla02.png">
+                        <collision-poly>
+                            <point x="0.164706" y="0.318182" />
+                            <point x="0.494118" y="0.386364" />
+                            <point x="0.823529" y="0.340909" />
+                            <point x="0.952941" y="0.5" />
+                            <point x="0.905882" y="0.818182" />
+                            <point x="0.494118" y="0.795455" />
+                            <point x="0.188235" y="0.636364" />
+                            <point x="0.0941176" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla03.png">
+                        <collision-poly>
+                            <point x="0.176471" y="0.340909" />
+                            <point x="0.494118" y="0.386364" />
+                            <point x="0.882353" y="0.227273" />
+                            <point x="0.964706" y="0.5" />
+                            <point x="0.870588" y="0.75" />
+                            <point x="0.494118" y="0.522727" />
+                            <point x="0.164706" y="0.681818" />
+                            <point x="0.0352941" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="1" name="anim2" pingpong="0" repeatcount="1" repeatto="0" sid="7223492507621524" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\CRAB_01.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.218182" />
+                            <point x="0.493333" y="0.363636" />
+                            <point x="0.866667" y="0.181818" />
+                            <point x="0.84" y="0.490909" />
+                            <point x="0.88" y="0.836364" />
+                            <point x="0.493333" y="0.763636" />
+                            <point x="0.146667" y="0.8" />
+                            <point x="0.2" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\CRAB_02.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.218182" />
+                            <point x="0.493333" y="0.363636" />
+                            <point x="0.866667" y="0.181818" />
+                            <point x="0.84" y="0.490909" />
+                            <point x="0.906667" y="0.872727" />
+                            <point x="0.493333" y="0.763636" />
+                            <point x="0.146667" y="0.8" />
+                            <point x="0.2" y="0.490909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\CRAB_03.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.218182" />
+                            <point x="0.493333" y="0.363636" />
+                            <point x="0.866667" y="0.181818" />
+                            <point x="0.84" y="0.490909" />
+                            <point x="0.906667" y="0.872727" />
+                            <point x="0.493333" y="0.763636" />
+                            <point x="0.146667" y="0.8" />
+                            <point x="0.2" y="0.490909" />
                         </collision-poly>
                     </frame>
                 </animation>
