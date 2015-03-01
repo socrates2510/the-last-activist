@@ -13,5 +13,6 @@
         <include>StartScreenEvents</include>
         <include>Parallax</include>
         <include>PC</include>
+        <include>spawns</include>
     </events>
 </c2eventsheet>
