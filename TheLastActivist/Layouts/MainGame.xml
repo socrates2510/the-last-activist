@@ -901,10 +901,12 @@
                     <world>
                         <x>-79</x>
                         <y>188</y>
+
                         <z>0</z>
-                        <width>82.926826477</width>
-                        <height>38.945453644</height>
+                        <width>79</width>
+                        <height>59</height>
                         <depth>0</depth>
+
                         <hotspotX>0.505882382</hotspotX>
                         <hotspotY>0.507936537</hotspotY>
                         <angle>1.570796371</angle>

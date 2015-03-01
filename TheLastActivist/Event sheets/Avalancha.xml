@@ -111,6 +111,13 @@
                 <action id="1" name="Set blend mode" sid="6915110517309313" type="Sprite">
                     <param id="0" name="Blend mode">1</param>
                 </action>
+                <action id="-9" name="Destroy" sid="4442973809102114" type="follower" />
+                <action id="0" name="Play" sid="4463808407790866" type="Audio">
+                    <param id="0" name="Audio file">GRITO_PEDO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5697306657516178">

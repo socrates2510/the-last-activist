@@ -7,15 +7,19 @@
         <event-block sid="6321166100951408">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="8566243009845407" type="System">
-                    <param id="0" name="Interval (seconds)">8</param>
+                    <param id="0" name="Interval (seconds)">6</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="9601098986608858" type="System">
                     <param id="0" name="Object to create">follower</param>
                     <param id="1" name="Layer">&quot;PC y NPC&quot;</param>
-                    <param id="2" name="X">random(800,750)</param>
+                    <param id="2" name="X">random(800,160)</param>
                     <param id="3" name="Y">-20</param>
+                </action>
+                <action id="4" name="Set animation" sid="3629532292032552" type="follower">
+                    <param id="0" name="Animation">&quot;follow&quot;&amp;round(random(1,5))</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -34,22 +38,17 @@
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="0" name="Play" sid="2230688371860289" type="Audio">
-                    <param id="0" name="Audio file">BACK_GROUND3</param>
+                    <param id="0" name="Audio file">CLAP</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;clap&quot;</param>
                 </action>
                 <action behavior="Bullet" id="5" name="Set enabled" sid="3878699505508184" type="follower">
                     <param id="0" name="State">0</param>
                 </action>
-                <action id="-21" name="Rotate toward position" sid="2832389977107984" type="follower">
-                    <param id="0" name="Degrees">-90</param>
-                    <param id="1" name="X">0</param>
-                    <param id="2" name="Y">0</param>
-                </action>
                 <action id="-10" name="Add to" sid="2767649778318863" type="System">
                     <param id="0" name="Variable">posicion_npc</param>
-                    <param id="1" name="Value">20</param>
+                    <param id="1" name="Value">15</param>
                 </action>
             </actions>
         </event-block>
@@ -69,22 +68,28 @@
                     <param id="0" name="Angle">angle(Self.X, Self.Y, Sprite.X, Sprite.Y +posicion_npc)</param>
                     <param id="1" name="Distance">600*dt</param>
                 </action>
+                <action id="-8" name="Set angle" sid="9360052985881341" type="follower">
+                    <param id="0" name="Angle">0</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="5327619097504521">
+        <event-block sid="1433631730524141">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="5263491353021798" type="follower">
+                <condition id="0" name="On collision with another object" sid="2352222483969642" type="follower">
                     <param id="0" name="Object">Avalanch</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="9619239152133384" type="follower">
-                    <param id="0" name="Instance variable">follower</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="1134226516900813" type="follower" />
                 <action id="-2" name="Set Y" sid="7296150010561531" type="Avalanch">
                     <param id="0" name="Y">Avalanch.Y+40</param>
                 </action>
+                <action id="0" name="Play" sid="1588482284101526" type="Audio">
+                    <param id="0" name="Audio file">GRITO_PEDO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4009033387284659" type="follower" />
             </actions>
         </event-block>
     </events>
