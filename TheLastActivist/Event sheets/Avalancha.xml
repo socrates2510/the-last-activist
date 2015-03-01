@@ -2,5 +2,61 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Avalancha</name>
-    <events />
+    <events>
+        <event-block sid="5510862433606371">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7765281755932312" type="Avalanch">
+                    <param id="0" name="Object">inorganic</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="6849543181652762" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y-20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2313484329388923" type="inorganic" />
+            </actions>
+        </event-block>
+        <event-block sid="3401038605793204">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8925313910865768" type="Avalanch">
+                    <param id="0" name="Object">metal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="6646446217657603" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y-20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8781145846971171" type="metal" />
+            </actions>
+        </event-block>
+        <event-block sid="9528868843321488">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4783510388976289" type="Avalanch">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6399740764277835" type="Sprite">
+                    <param id="0" name="Animation">&quot;Muerte&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="2" name="Set muted" sid="1841209389473154" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="9539815456990248" type="Audio">
+                    <param id="0" name="Audio file">GAME_OVER</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Game Over&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="9456227716081384" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1145602463377198" type="System">
+                    <param id="0" name="Layout">Start_Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

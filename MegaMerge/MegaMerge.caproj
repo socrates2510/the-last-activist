@@ -10,7 +10,7 @@
     <unique-id>2ajxfw52ycy8u</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
@@ -54,8 +54,8 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9277787548001963" speed="5">
-                    <frame duration="1" hotspotX="0.325" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="1.075" y="0.5" />
+                    <frame duration="1" hotspotX="0.224138" hotspotY="0.509434" original-source="C:\Users\apizarro\Downloads\stone.png">
+                        <image-point name="Imagepoint 1" x="1.27586" y="0.509434" />
                         <collision-poly>
                             <point x="1" y="0.5" />
                             <point x="0" y="1" />
@@ -197,8 +197,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1806340079418774" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.517857" original-source="C:\Users\apizarro\Downloads\main_character.png">
+                <animation framecount="2" loop="1" name="correr" pingpong="0" repeatcount="1" repeatto="0" sid="2652937943697017" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Downloads\main_character.png">
                         <collision-poly>
                             <point x="0.25" y="0.375" />
                             <point x="0.5" y="0.178571" />
@@ -208,6 +208,18 @@
                             <point x="0.5" y="0.732143" />
                             <point x="0.261905" y="0.625" />
                             <point x="0.0595238" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
+                        <collision-poly>
+                            <point x="0.097561" y="0.145455" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.731707" y="0.4" />
+                            <point x="0.926829" y="0.490909" />
+                            <point x="0.768293" y="0.654545" />
+                            <point x="0.5" y="0.709091" />
+                            <point x="0.268293" y="0.6" />
+                            <point x="0.158537" y="0.490909" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -355,8 +367,8 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="Array" sid="1378046238507545">
-            <plugin id="Arr" />
+        <object-type name="Audio" sid="8062136294403505">
+            <plugin id="Audio" />
         </object-type>
     </object-folder>
     <families />
@@ -373,8 +385,32 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Sleep Away.m4a" />
+        <file name="BACK_GROUND3.m4a" />
+        <file name="BACK_GROUND3.ogg" />
+        <file name="BOSQUE.m4a" />
+        <file name="BOSQUE.ogg" />
+        <file name="CLAP.m4a" />
+        <file name="CLAP.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
