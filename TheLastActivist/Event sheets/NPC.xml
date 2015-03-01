@@ -5,14 +5,40 @@
     <events>
         <event-block sid="7552595958268153">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="295273214573621" type="follower">
-                    <param id="0" name="Object">Sprite</param>
+                <condition id="0" name="On collision with another object" sid="295273214573621" type="Sprite">
+                    <param id="0" name="Object">follower</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-13" name="Set boolean" sid="2037090256733576" type="follower">
                     <param id="0" name="Instance variable">follower</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="3878699505508184" type="follower">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-21" name="Rotate toward position" sid="2832389977107984" type="follower">
+                    <param id="0" name="Degrees">-90</param>
+                    <param id="1" name="X">0</param>
+                    <param id="2" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1048544819077474">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="2744171209123372" type="follower">
+                    <param id="0" name="Instance variable">follower</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="1190457342150951" type="System">
+                    <param id="0" name="First value">distance(follower.X, follower.Y, Sprite.X, Sprite.Y +40)</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">100*dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="4523692947880792" type="follower">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Sprite.X, Sprite.Y +40)</param>
+                    <param id="1" name="Distance">100*dt</param>
                 </action>
             </actions>
         </event-block>
