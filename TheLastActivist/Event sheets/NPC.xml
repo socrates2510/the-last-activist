@@ -40,7 +40,7 @@
                 <action id="0" name="Play" sid="2230688371860289" type="Audio">
                     <param id="0" name="Audio file">CLAP</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">5</param>
                     <param id="1" name="Tag (optional)">&quot;clap&quot;</param>
                 </action>
                 <action behavior="Bullet" id="5" name="Set enabled" sid="3878699505508184" type="follower">
@@ -81,12 +81,12 @@
             </conditions>
             <actions>
                 <action id="-2" name="Set Y" sid="7296150010561531" type="Avalanch">
-                    <param id="0" name="Y">Avalanch.Y+40</param>
+                    <param id="0" name="Y">Avalanch.Y+20</param>
                 </action>
                 <action id="0" name="Play" sid="1588482284101526" type="Audio">
                     <param id="0" name="Audio file">GRITO_PEDO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-9" name="Destroy" sid="4009033387284659" type="follower" />

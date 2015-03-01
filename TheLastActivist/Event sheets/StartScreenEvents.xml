@@ -98,7 +98,7 @@
                 <action id="0" name="Play" sid="2092746970665588" type="Audio">
                     <param id="0" name="Audio file">BACK_GROUND3</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
             </actions>

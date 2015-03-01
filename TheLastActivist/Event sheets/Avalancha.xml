@@ -5,20 +5,14 @@
     <events>
         <event-block sid="5510862433606371">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="7765281755932312" type="Avalanch">
-                    <param id="0" name="Object">organic</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="9019541623882046" type="System" />
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="6849543181652762" type="Avalanch">
-                    <param id="0" name="Y">Avalanch.Y-20</param>
-                </action>
-                <action id="-9" name="Destroy" sid="2313484329388923" type="organic" />
-                <action id="0" name="Play" sid="1596732553822946" type="Audio">
-                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="0" name="Play" sid="7998467703535393" type="Audio">
+                    <param id="0" name="Audio file">MIX_AVALANCHE</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-3</param>
+                    <param id="1" name="Tag (optional)">&quot;avalanch-sound&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -29,14 +23,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="6646446217657603" type="Avalanch">
-                    <param id="0" name="Y">Avalanch.Y-20</param>
-                </action>
                 <action id="-9" name="Destroy" sid="8781145846971171" type="metal" />
                 <action id="0" name="Play" sid="9282628261226005" type="Audio">
                     <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -55,7 +46,7 @@
                 <action id="0" name="Play" sid="8078192082354061" type="Audio">
                     <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -74,7 +65,7 @@
                 <action id="0" name="Play" sid="8003982929488284" type="Audio">
                     <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -92,6 +83,10 @@
                 </action>
                 <action id="2" name="Set muted" sid="1841209389473154" type="Audio">
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="2" name="Set muted" sid="9870654358041004" type="Audio">
+                    <param id="0" name="Tag">&quot;avalanch-sound&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
                 <action id="0" name="Play" sid="1686002858457422" type="Audio">
@@ -115,7 +110,7 @@
                 <action id="0" name="Play" sid="4463808407790866" type="Audio">
                     <param id="0" name="Audio file">GRITO_PEDO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -145,6 +140,10 @@
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
+                <action id="2" name="Set muted" sid="9216262867731806" type="Audio">
+                    <param id="0" name="Tag">&quot;avalanch-sound&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2563502418633701">
@@ -155,6 +154,25 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="5478797245286891" type="follower" />
+            </actions>
+        </event-block>
+        <event-block sid="9591858163187853">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8773372388812478" type="Avalanch">
+                    <param id="0" name="Object">organic</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="3205324678261492" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y-20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5468416942974968" type="organic" />
+                <action id="0" name="Play" sid="7265702133676555" type="Audio">
+                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-7</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>
