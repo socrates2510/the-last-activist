@@ -50,5 +50,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3809625078544401">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9691393015841281" type="obstaculos">
+                    <param id="0" name="Object">Avalanch</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9946815359439535" type="obstaculos" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
