@@ -561,14 +561,14 @@
                 <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="5229847414343033" speed="5">
                     <frame duration="1" hotspotX="0.53125" hotspotY="0.492754" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\tree_03.png">
                         <collision-poly>
-                            <point x="0.975216" y="0.732431" />
+                            <point x="0.873653" y="0.717938" />
                             <point x="0.533944" y="0.955565" />
-                            <point x="0.126616" y="0.695242" />
-                            <point x="0.0926724" y="0.509297" />
+                            <point x="0.0250535" y="0.774952" />
+                            <point x="0.0614224" y="0.458572" />
                             <point x="0.126616" y="0.304758" />
-                            <point x="0.533944" y="0.118813" />
-                            <point x="0.907328" y="0.341947" />
-                            <point x="0.975216" y="0.509297" />
+                            <point x="0.323007" y="0.10432" />
+                            <point x="0.727641" y="0.25499" />
+                            <point x="0.897091" y="0.44408" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -826,6 +826,8 @@
         <file name="WRONG_BASURERO LLENO.m4a" />
         <file name="WRONG_BASURERO LLENO.ogg" />
         <file name="RECOGE_INORG.ogg" />
+        <file name="CHOQUE_OBST.m4a" />
+        <file name="CHOQUE_OBST.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

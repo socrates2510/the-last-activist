@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>obstaculos</name>
@@ -29,6 +29,13 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="7" name="Play (by name)" sid="2939375220777796" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;CHOQUE_OBST&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;CHOQUE_OBST&quot;</param>
+                </action>
                 <action behavior="Flash" id="0" name="Flash" sid="5386046988535392" type="Sprite">
                     <param id="0" name="&apos;On&apos; time">0.1</param>
                     <param id="1" name="&apos;Off&apos; time">0.1</param>
