@@ -24,13 +24,13 @@
                                     <param id="0" name="Property name">&quot;font-size&quot;</param>
                                     <param id="1" name="Value">&quot;50px&quot;</param>
                                 </action>
+                                <action id="5" name="Set CSS style" sid="676048721905318" type="Play">
+                                    <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                                    <param id="1" name="Value">&quot;8px 8px 0 #C3A775&quot;</param>
+                                </action>
                                 <action id="5" name="Set CSS style" sid="4363117945540405" type="Play">
                                     <param id="0" name="Property name">&quot;-webkit-box-shadow&quot;</param>
                                     <param id="1" name="Value">&quot;8px 8px 0 #C3A775&quot;</param>
-                                </action>
-                                <action id="5" name="Set CSS style" sid="7755821861979518" type="Play">
-                                    <param id="0" name="Property name">&quot;text-shadow&quot;</param>
-                                    <param id="1" name="Value">&quot;-1px -1px 1 #616161&quot;</param>
                                 </action>
                                 <action id="5" name="Set CSS style" sid="2912428900926084" type="Play">
                                     <param id="0" name="Property name">&quot;border&quot;</param>
@@ -51,6 +51,10 @@
                                         </condition>
                                     </conditions>
                                     <actions>
+                                        <action id="5" name="Set CSS style" sid="9799137346179005" type="Play">
+                                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                                            <param id="1" name="Value">&quot;inset 4px 4px rgba(110, 79, 44, 0.3)&quot;</param>
+                                        </action>
                                         <action id="5" name="Set CSS style" sid="2909106254661085" type="Play">
                                             <param id="0" name="Property name">&quot;-webkit-box-shadow&quot;</param>
                                             <param id="1" name="Value">&quot;inset 4px 4px rgba(110, 79, 44, 0.3)&quot;</param>
