@@ -108,6 +108,9 @@
                     <param id="0" name="Instance variable">player_death</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="1" name="Set blend mode" sid="6915110517309313" type="Sprite">
+                    <param id="0" name="Blend mode">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5697306657516178">
