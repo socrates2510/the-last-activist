@@ -252,7 +252,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="3875202950838938">
+        <object-type name="Avalanch" sid="3875202950838938">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9814971606158798" speed="5">
