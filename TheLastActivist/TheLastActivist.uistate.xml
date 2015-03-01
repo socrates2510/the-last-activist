@@ -17,9 +17,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="3">bars</event-sheet>
         <event-sheet order="5">obstaculos</event-sheet>
         <event-sheet order="6">spawns</event-sheet>
+
         <event-sheet active="1" order="7">NPC</event-sheet>
         <event-sheet order="8">Avalancha</event-sheet>
         <event-sheet order="9">Basureros</event-sheet>
+
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,8 +31,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
+
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
+
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
@@ -56,5 +60,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/orga_bar/" />
         <folder expanded="1" path="animation-folder/obstaculos/" />
         <folder expanded="1" path="animation-folder/Play_button/" />
+
+        <folder expanded="1" path="animation-folder/Game_Over/" />
+
     </folders-expanded>
 </c2uistate>
