@@ -189,7 +189,7 @@
         <object-type name="Mouse" sid="3351270417193394">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="Player" sid="5001823464913216">
+        <object-type name="PlayerIntro" sid="5001823464913216">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="running" sid="4804778050345569" type="boolean" />
@@ -567,6 +567,8 @@
         <file name="RECOGE_METAL.ogg" />
         <file name="RECOGE_ORGANICO.m4a" />
         <file name="RECOGE_ORGANICO.ogg" />
+        <file name="GRITO_PEDO.m4a" />
+        <file name="GRITO_PEDO.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
