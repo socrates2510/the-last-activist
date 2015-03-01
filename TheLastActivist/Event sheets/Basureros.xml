@@ -3,6 +3,16 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Basureros</name>
     <events>
+        <event-block sid="6596130883519738">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="5100512917479228" type="System" />
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="9277764738230146" type="Array">
+                    <param id="0" name="JSON">&quot;{&quot;&quot;c2array&quot;&quot;:true,&quot;&quot;size&quot;&quot;:[4,5,1],&quot;&quot;data&quot;&quot;:[&#x0D;&#x0A;[[&quot;&quot;Over 75% of waste is recyclable, but we only recycle about 30% of it.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;The average person generates over 4 pounds of trash every day and about 1.5 tons of solid waste per year.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;About one-third of an average dump is made up of packaging material!&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Check out garage sales, thrift stores, and consignment shops for clothing and other everyday items.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Disposable diapers last centuries in landfills. An average baby will go through 8,000 of them!&quot;&quot;]],&#x0D;&#x0A;&#x0D;&#x0A;[[&quot;&quot;In theory, 1 kg of compost worms can turn into 1 tonne of Compost Worms in 1 year.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;There are A LOT of things you can compost and not just fruit and veggie scraps.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;A compost pile can reach 150 degrees Fahrenheit; it’s all body heat given off by the decomposers.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Worms are found in every ecosystem on earth - They even live in the Ocean.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot; Composting can suppress plant diseases.  It will also usually eliminate the need for chemical fertilizers.&quot;&quot;]],&#x0D;&#x0A;&#x0D;&#x0A;[[&quot;&quot;There is no limit to the amount of times an aluminum can be recycled.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Recycling a single aluminum can will provide enough energy to run a TV for three hours.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;We use over 80,000,000,000 aluminum soda cans every year.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;An aluminum can that is thrown away will still be a can 500 years from now.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;At one time, aluminum was more valuable than gold!&quot;&quot;]],&#x0D;&#x0A;&#x0D;&#x0A;[[&quot;&quot;Over a ton of natural resources are saved for every ton of glass recycled.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Bottles and jars made from glass are 100% recyclable and can be recycled endlessly without loss of quality.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;An estimated 80% of recovered glass containers are made into new glass bottles.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Glass bottles have been reduced in weight by more than 50% between 1970 and 2000.&quot;&quot;],&#x0D;&#x0A;[&quot;&quot;Recycled glass is substituted for up to 95% of raw materials.&quot;&quot;]]&#x0D;&#x0A;]}&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="7202227857132004">
             <conditions>
                 <condition id="-7" name="Compare instance variable" sid="9870684309402773" type="basureros">

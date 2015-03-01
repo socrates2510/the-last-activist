@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>TheLastActivist</name>
     <description></description>
@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -22,9 +23,7 @@
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
     </used-behaviors>
-    <used-effects>
-        <effect author="Scirra" id="colorblend">Color</effect>
-    </used-effects>
+    <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -103,11 +102,6 @@
                     <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
-            <effects>
-                <effect-type name="Color">
-                    <effect id="colorblend" />
-                </effect-type>
-            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8547851565098841" speed="5">
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
@@ -511,10 +505,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-
                 <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="8">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
-
+                    <frame duration="1" hotspotX="0.506173" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
                         <collision-poly>
                             <point x="0.097561" y="0.145455" />
                             <point x="0.5" y="0.0181818" />
@@ -526,9 +518,7 @@
                             <point x="0.158537" y="0.490909" />
                         </collision-poly>
                     </frame>
-
-                    <frame duration="1" hotspotX="0" hotspotY="0.490909" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
-
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
                         <collision-poly>
                             <point x="0.258824" y="0.349206" />
                             <point x="0.494118" y="0.15873" />
@@ -1012,6 +1002,9 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type global="1" name="Array" sid="6386471085267196">
+            <plugin id="Arr" />
         </object-type>
     </object-folder>
     <families />
