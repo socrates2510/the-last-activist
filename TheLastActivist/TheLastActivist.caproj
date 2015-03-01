@@ -22,7 +22,9 @@
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="colorblend">Color</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -101,6 +103,11 @@
                     <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
+            <effects>
+                <effect-type name="Color">
+                    <effect id="colorblend" />
+                </effect-type>
+            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8547851565098841" speed="5">
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
@@ -143,7 +150,7 @@
                     </frame>
                 </animation>
                 <animation framecount="5" loop="1" name="Muerte" pingpong="0" repeatcount="1" repeatto="0" sid="4773210739027439" speed="5">
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.513889" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_01.png">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.513889" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ghost_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -155,7 +162,7 @@
                             <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_02.png">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ghost_02.png">
                         <collision-poly>
                             <point x="0.139535" y="0.0833333" />
                             <point x="0.488372" y="0.263889" />
@@ -167,7 +174,7 @@
                             <point x="0.0697674" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_03.png">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ghost_03.png">
                         <collision-poly>
                             <point x="0.139535" y="0.0833333" />
                             <point x="0.488372" y="0.25" />
@@ -179,7 +186,7 @@
                             <point x="0.0697674" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_04.png">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ghost_04.png">
                         <collision-poly>
                             <point x="0.395349" y="0.236111" />
                             <point x="0.488372" y="0.236111" />
@@ -191,7 +198,7 @@
                             <point x="0.0232558" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_05.png">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ghost_05.png">
                         <collision-poly>
                             <point x="0.372093" y="0.222222" />
                             <point x="0.488372" y="0.236111" />
