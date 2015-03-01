@@ -10,8 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">MainGame</layout>
-        <event-sheet active="1" order="1">Basureros</event-sheet>
+        <layout active="1" order="0">MainGame</layout>
+        <layout order="4">Start_Screen</layout>
+        <event-sheet order="1">trash</event-sheet>
+        <event-sheet order="2">MainGameEvents</event-sheet>
+        <event-sheet order="3">bars</event-sheet>
+        <event-sheet order="5">obstaculos</event-sheet>
+        <event-sheet order="6">spawns</event-sheet>
+        <event-sheet order="7">Basureros</event-sheet>
+        <event-sheet active="1" order="8">Avalancha</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -22,10 +29,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
+<<<<<<< HEAD
         <folder expanded="0" path="layout-folder/" />
+=======
+        <folder expanded="1" path="layout-folder/" />
+>>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Ground/" />
@@ -48,9 +59,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/orga_bar/" />
         <folder expanded="1" path="animation-folder/obstaculos/" />
         <folder expanded="1" path="animation-folder/Play_button/" />
-        <folder expanded="1" path="animation-folder/Game_Over/" />
+<<<<<<< HEAD
         <folder expanded="1" path="animation-folder/basureros/" />
         <folder expanded="1" path="animation-folder/glass/" />
         <folder expanded="1" path="animation-folder/inorganic/" />
+=======
+>>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
     </folders-expanded>
 </c2uistate>

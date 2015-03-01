@@ -19,7 +19,6 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
     </used-behaviors>
     <used-effects />
@@ -93,9 +92,6 @@
         </object-type>
         <object-type name="Sprite" sid="9291153456913734">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="player_death" sid="8278657755254058" type="boolean" />
-            </instance-variables>
             <behaviors>
                 <behavior-type name="Flash" sid="9031003594715277">
                     <behavior id="Flash" />
@@ -103,7 +99,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8547851565098841" speed="5">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -117,7 +113,7 @@
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="Corriendo" pingpong="0" repeatcount="1" repeatto="0" sid="6002776351341614" speed="8">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -129,7 +125,7 @@
                             <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_02.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
                         <collision-poly>
                             <point x="0.097561" y="0.145455" />
                             <point x="0.5" y="0.0181818" />
@@ -142,8 +138,8 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="Muerte" pingpong="0" repeatcount="1" repeatto="0" sid="4773210739027439" speed="5">
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.513889" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_01.png">
+                <animation framecount="1" loop="0" name="Muerte" pingpong="0" repeatcount="1" repeatto="0" sid="4773210739027439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -155,57 +151,9 @@
                             <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_02.png">
-                        <collision-poly>
-                            <point x="0.139535" y="0.0833333" />
-                            <point x="0.488372" y="0.263889" />
-                            <point x="0.581395" y="0.25" />
-                            <point x="0.953488" y="0.5" />
-                            <point x="0.72093" y="0.833333" />
-                            <point x="0.488372" y="0.847222" />
-                            <point x="0.139535" y="0.916667" />
-                            <point x="0.0697674" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_03.png">
-                        <collision-poly>
-                            <point x="0.139535" y="0.0833333" />
-                            <point x="0.488372" y="0.25" />
-                            <point x="0.883721" y="0.0694444" />
-                            <point x="0.953488" y="0.5" />
-                            <point x="0.674419" y="0.805556" />
-                            <point x="0.488372" y="0.916667" />
-                            <point x="0.325581" y="0.805556" />
-                            <point x="0.0697674" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_04.png">
-                        <collision-poly>
-                            <point x="0.395349" y="0.236111" />
-                            <point x="0.488372" y="0.236111" />
-                            <point x="0.883721" y="0.0694444" />
-                            <point x="0.906977" y="0.5" />
-                            <point x="0.837209" y="0.902778" />
-                            <point x="0.488372" y="0.819444" />
-                            <point x="0.186047" y="0.888889" />
-                            <point x="0.0232558" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ghost_05.png">
-                        <collision-poly>
-                            <point x="0.372093" y="0.222222" />
-                            <point x="0.488372" y="0.236111" />
-                            <point x="0.883721" y="0.0694444" />
-                            <point x="0.906977" y="0.5" />
-                            <point x="0.837209" y="0.902778" />
-                            <point x="0.488372" y="0.819444" />
-                            <point x="0.372093" y="0.777778" />
-                            <point x="0.0232558" y="0.5" />
-                        </collision-poly>
-                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="BotarIzq" pingpong="0" repeatcount="1" repeatto="0" sid="2418185241243078" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.514706" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_trash_01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -219,7 +167,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="BotarDer" pingpong="0" repeatcount="1" repeatto="0" sid="6823145011073451" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.514706" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_trash_02.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -505,17 +453,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.492063" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
-                        <collision-poly>
-                            <point x="0.258824" y="0.349206" />
-                            <point x="0.494118" y="0.15873" />
-                            <point x="0.894118" y="0.142857" />
-                            <point x="0.694118" y="0.587302" />
-                            <point x="0.494118" y="0.857143" />
-                            <point x="0.305882" y="0.587302" />
-                            <point x="0.0588235" y="0.492063" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0.490909" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -679,19 +617,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Game_Over" sid="9600522125797507">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Fade" sid="5213191243105205">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4418910429219505" speed="5">
-                    <frame duration="1" hotspotX="0.500752" hotspotY="0.506667" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\game-over01.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="basureros" sid="7841961559154008">
             <plugin id="Sprite" />
             <instance-variables>
@@ -852,9 +777,9 @@
         <event-sheet>obstaculos.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="28" />
-        <global-instance type="Mouse" uid="33" />
-        <global-instance type="Audio" uid="41">
+        <global-instance type="Keyboard" uid="23" />
+        <global-instance type="Mouse" uid="28" />
+        <global-instance type="Audio" uid="33">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -883,10 +808,9 @@
         <file name="PASOS_CANGREJO.m4a" />
         <file name="TENAZAS_CANGREJO.m4a" />
         <file name="TENAZAS_CANGREJO.ogg" />
-        <file name="RECOGE_METAL.m4a" />
-        <file name="RECOGE_METAL.ogg" />
         <file name="RECOGE_ORGANICO.m4a" />
         <file name="RECOGE_ORGANICO.ogg" />
+<<<<<<< HEAD
         <file name="BASURA_AL_BASURERO.m4a" />
         <file name="BASURA_AL_BASURERO.ogg" />
         <file name="RECOGE_INORG.m4a" />
@@ -901,8 +825,12 @@
         <file name="WRONG_BASURERO LLENO.m4a" />
         <file name="WRONG_BASURERO LLENO.ogg" />
         <file name="RECOGE_INORG.ogg" />
+=======
         <file name="CHOQUE_OBST.m4a" />
         <file name="CHOQUE_OBST.ogg" />
+        <file name="RECOGE_METAL.m4a" />
+        <file name="RECOGE_METAL.ogg" />
+>>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
     </sounds-folder>
     <music-folder />
     <files-folder>
