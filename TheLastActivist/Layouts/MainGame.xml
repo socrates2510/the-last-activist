@@ -161,28 +161,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RightTrees" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>918</x>
-                        <y>-122</y>
-                        <z>0</z>
-                        <width>84</width>
-                        <height>190</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="RightTrees" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -271,28 +249,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LeftSprite" uid="10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>42</x>
-                        <y>-122</y>
-                        <z>0</z>
-                        <width>84</width>
-                        <height>190</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="LeftSprite" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -325,11 +281,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>479</x>
-                        <y>1028.189697266</y>
+                        <x>481</x>
+                        <y>969</y>
                         <z>0</z>
-                        <width>951</width>
-                        <height>1049</height>
+                        <width>970</width>
+                        <height>983</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -480,6 +436,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="RightTrees" uid="5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>918</x>
+                        <y>-122</y>
+                        <z>0</z>
+                        <width>84</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LeftSprite" uid="10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>42</x>
+                        <y>-122</y>
+                        <z>0</z>
+                        <width>84</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -612,7 +612,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="metal_bar" uid="29">
+                <instance type="metal_bar" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

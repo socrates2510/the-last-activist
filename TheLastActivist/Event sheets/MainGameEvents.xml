@@ -24,6 +24,5 @@
         <include>trash</include>
         <include>bars</include>
         <include>obstaculos</include>
-
     </events>
 </c2eventsheet>

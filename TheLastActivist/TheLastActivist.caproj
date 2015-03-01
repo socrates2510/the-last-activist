@@ -569,9 +569,9 @@
         <event-sheet>obstaculos.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="22" />
-        <global-instance type="Mouse" uid="23" />
-        <global-instance type="Audio" uid="28">
+        <global-instance type="Keyboard" uid="23" />
+        <global-instance type="Mouse" uid="28" />
+        <global-instance type="Audio" uid="33">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
