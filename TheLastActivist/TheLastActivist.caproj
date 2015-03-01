@@ -189,7 +189,7 @@
         <object-type name="Mouse" sid="3351270417193394">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="Player" sid="5001823464913216">
+        <object-type name="PlayerIntro" sid="5001823464913216">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="running" sid="4804778050345569" type="boolean" />
@@ -319,7 +319,7 @@
         <object-type name="Audio" sid="5150081392975576">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="inorganic" sid="9645078174957859">
+        <object-type name="organic" sid="9645078174957859">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="9328876949693407">
@@ -328,7 +328,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="img1" pingpong="0" repeatcount="1" repeatto="0" sid="3696526210682245" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\manzana01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\MANZANA.png">
                         <collision-poly>
                             <point x="0.222222" y="0.75" />
                             <point x="0.166667" y="0.5" />
@@ -342,7 +342,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="2126052056016339" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\banano01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\BANANA.png">
                         <collision-poly>
                             <point x="0.416667" y="0.583333" />
                             <point x="0.0555556" y="0.5" />
@@ -395,7 +395,134 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="follower" sid="4519254712115846">
+        <object-type name="bar_inorga" sid="7406434948278637">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3487542793466379" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.488" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bar_metal" sid="2729017898649602">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="5">
+                    <frame duration="1" hotspotX="-0.004" hotspotY="0.492" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bar_orga" sid="8790123442565916">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6776288293677596" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bar_glass" sid="7516331209218082">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6116082265359276" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.488" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text_Play" sid="2575067108630687">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5767127764879895" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\play_screen.png">
+                        <collision-poly>
+                            <point x="0.0581395" y="0.172414" />
+                            <point x="0.5" y="0.206897" />
+                            <point x="0.953488" y="0.137931" />
+                            <point x="0.965116" y="0.482759" />
+                            <point x="0.906977" y="0.724138" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0348837" y="0.896552" />
+                            <point x="0.0232558" y="0.482759" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="metal_bar" sid="2410644009619354">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5394809893808683" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\metal.png">
+                        <collision-poly>
+                            <point x="0.0614035" y="0.205882" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.95614" y="0.147059" />
+                            <point x="1" y="0.5" />
+                            <point x="0.95614" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0526316" y="0.823529" />
+                            <point x="0.00877193" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="glass_bar" sid="9161404537710521">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9695828703154913" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\BOTTLES.png">
+                        <collision-poly>
+                            <point x="0.0614035" y="0.205882" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.95614" y="0.147059" />
+                            <point x="1" y="0.5" />
+                            <point x="0.95614" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0526316" y="0.823529" />
+                            <point x="0.00877193" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="inorga_bar" sid="5247048528745668">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3822039811645055" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\INORGANIC.png">
+                        <collision-poly>
+                            <point x="0.0614035" y="0.205882" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.95614" y="0.147059" />
+                            <point x="1" y="0.5" />
+                            <point x="0.95614" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0526316" y="0.823529" />
+                            <point x="0.00877193" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="orga_bar" sid="5637477097975544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3111888654795822" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\organic_00.png">
+                        <collision-poly>
+                            <point x="0.0614035" y="0.205882" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.95614" y="0.147059" />
+                            <point x="1" y="0.5" />
+                            <point x="0.95614" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0526316" y="0.823529" />
+                            <point x="0.00877193" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="follower" sid="5247067628745368">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="follower" sid="134417302334308" type="boolean" />
@@ -448,6 +575,8 @@
         <event-sheet>spawns.xml</event-sheet>
         <event-sheet>Avalancha.xml</event-sheet>
         <event-sheet>NPC.xml</event-sheet>
+        <event-sheet>trash.xml</event-sheet>
+        <event-sheet>bars.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="21" />
@@ -474,6 +603,12 @@
         <file name="BACK_GROUND3.ogg" />
         <file name="GAME_OVER.m4a" />
         <file name="GAME_OVER.ogg" />
+        <file name="RECOGE_METAL.m4a" />
+        <file name="RECOGE_METAL.ogg" />
+        <file name="RECOGE_ORGANICO.m4a" />
+        <file name="RECOGE_ORGANICO.ogg" />
+        <file name="GRITO_PEDO.m4a" />
+        <file name="GRITO_PEDO.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
