@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CreditsEvents</name>
+    <events>
+        <event-block sid="4131794720032133">
+            <conditions>
+                <condition id="1" name="On any click" sid="4566629259018041" type="Mouse" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6234324145855473" type="System">
+                    <param id="0" name="Layout">Start_Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8086950524595982">
+            <conditions>
+                <condition id="1" name="On any key pressed" sid="9859552022773196" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9777381933269732" type="System">
+                    <param id="0" name="Layout">Start_Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

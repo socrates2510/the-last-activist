@@ -10,19 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">MainGame</layout>
+        <layout order="0">Credits</layout>
+        <layout order="2">MainGame</layout>
         <layout order="3">Start_Screen</layout>
-        <event-sheet order="1">MainGameEvents</event-sheet>
-        <event-sheet order="2">Parallax</event-sheet>
-        <event-sheet order="4">Avalancha</event-sheet>
-        <event-sheet order="5">NPC</event-sheet>
-        <event-sheet order="6">StartScreenEvents</event-sheet>
-        <event-sheet order="7">Basureros</event-sheet>
-        <event-sheet order="8">obstaculos</event-sheet>
-        <event-sheet order="9">bars</event-sheet>
-        <event-sheet order="10">PC</event-sheet>
-        <event-sheet order="11">spawns</event-sheet>
-        <event-sheet order="12">trash</event-sheet>
+        <event-sheet order="1">CreditsEvents</event-sheet>
+        <event-sheet order="4">StartScreenEvents</event-sheet>
+        <event-sheet active="1" order="5">Basureros</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -64,6 +57,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/glass/" />
         <folder expanded="1" path="animation-folder/inorganic/" />
         <folder expanded="1" path="animation-folder/Animals/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Instructions/" />
+        <folder expanded="1" path="animation-folder/Credits/" />
+        <folder expanded="1" path="animation-folder/CreditsImage/" />
     </folders-expanded>
 </c2uistate>

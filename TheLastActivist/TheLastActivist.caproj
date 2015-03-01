@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -954,42 +955,43 @@
                 <instance-variable name="startMoving" sid="162909495971326" type="boolean" />
                 <instance-variable name="conMensaje" sid="8124404979770673" type="boolean" />
                 <instance-variable name="tipoMensaje" sid="1034051026522422" type="number" />
+                <instance-variable name="texto" sid="6329506059784495" type="string" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="3" loop="1" name="anim1" pingpong="0" repeatcount="1" repeatto="0" sid="6451353758070544" speed="5">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla01.png">
+                    <frame duration="1" hotspotX="0.0816667" hotspotY="0.522727" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla01.png">
                         <collision-poly>
-                            <point x="0.152941" y="0.295455" />
-                            <point x="0.494118" y="0.25" />
-                            <point x="0.705882" y="0.5" />
-                            <point x="0.741176" y="0.5" />
-                            <point x="0.494118" y="0.863636" />
-                            <point x="0.176471" y="0.659091" />
-                            <point x="0.176471" y="0.5" />
+                            <point x="0.00960448" y="0.318182" />
+                            <point x="0.0792374" y="0.272727" />
+                            <point x="0.122458" y="0.522727" />
+                            <point x="0.129661" y="0.522727" />
+                            <point x="0.0792374" y="0.886363" />
+                            <point x="0.0144069" y="0.681818" />
+                            <point x="0.0144069" y="0.522727" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla02.png">
+                    <frame duration="1" hotspotX="0.0716667" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla02.png">
                         <collision-poly>
-                            <point x="0.164706" y="0.318182" />
-                            <point x="0.494118" y="0.386364" />
-                            <point x="0.823529" y="0.340909" />
-                            <point x="0.952941" y="0.5" />
-                            <point x="0.905882" y="0.818182" />
-                            <point x="0.494118" y="0.795455" />
-                            <point x="0.188235" y="0.636364" />
-                            <point x="0.0941176" y="0.5" />
+                            <point x="0.0233334" y="0.318182" />
+                            <point x="0.0700001" y="0.386364" />
+                            <point x="0.116667" y="0.340909" />
+                            <point x="0.135" y="0.5" />
+                            <point x="0.128333" y="0.818182" />
+                            <point x="0.0700001" y="0.795455" />
+                            <point x="0.0266666" y="0.636364" />
+                            <point x="0.0133333" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla03.png">
+                    <frame duration="1" hotspotX="0.0716667" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla03.png">
                         <collision-poly>
-                            <point x="0.176471" y="0.340909" />
-                            <point x="0.494118" y="0.386364" />
-                            <point x="0.882353" y="0.227273" />
-                            <point x="0.964706" y="0.5" />
-                            <point x="0.870588" y="0.75" />
-                            <point x="0.494118" y="0.522727" />
-                            <point x="0.164706" y="0.681818" />
-                            <point x="0.0352941" y="0.5" />
+                            <point x="0.0250001" y="0.340909" />
+                            <point x="0.0700001" y="0.386364" />
+                            <point x="0.125" y="0.227273" />
+                            <point x="0.136667" y="0.5" />
+                            <point x="0.123333" y="0.75" />
+                            <point x="0.0700001" y="0.522727" />
+                            <point x="0.0233334" y="0.681818" />
+                            <point x="0.005" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1036,7 +1038,7 @@
         <object-type global="1" name="Array" sid="6386471085267196">
             <plugin id="Arr" />
         </object-type>
-        <object-type name="Sprite2" sid="5715334266060796">
+        <object-type name="Instructions" sid="5715334266060796">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9291890560047924" speed="5">
@@ -1055,11 +1057,45 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Credits" sid="2139741732133492">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4120932451088674" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\CREDITS.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="8309099116439408">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="CreditsImage" sid="3924534259403959">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4015549117527197" speed="5">
+                    <frame duration="1" hotspotX="0.500938" hotspotY="0.503185" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\boton_creditos.png">
+                        <collision-poly>
+                            <point x="0.0619137" y="0.210191" />
+                            <point x="0.499062" y="0.044586" />
+                            <point x="0.941839" y="0.197452" />
+                            <point x="0.986867" y="0.496815" />
+                            <point x="0.941839" y="0.802548" />
+                            <point x="0.499062" y="0.955414" />
+                            <point x="0.0600375" y="0.796178" />
+                            <point x="0.0150094" y="0.496815" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CreditsButton" sid="3604793568507734">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Start_Screen.xml</layout>
         <layout>MainGame.xml</layout>
+        <layout>Credits.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainGameEvents.xml</event-sheet>
@@ -1073,6 +1109,7 @@
         <event-sheet>bars.xml</event-sheet>
         <event-sheet>Basureros.xml</event-sheet>
         <event-sheet>obstaculos.xml</event-sheet>
+        <event-sheet>CreditsEvents.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="28" />
@@ -1091,6 +1128,11 @@
                 <roll-off-factor>1</roll-off-factor>
                 <speed-of-sound>5000</speed-of-sound>
                 <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="47">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
     </global-instances>

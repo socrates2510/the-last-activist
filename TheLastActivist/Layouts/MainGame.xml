@@ -106,6 +106,7 @@
                         <startMoving>false</startMoving>
                         <conMensaje>false</conMensaje>
                         <tipoMensaje>1</tipoMensaje>
+                        <texto>Recycle is good!</texto>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -113,11 +114,11 @@
                         <x>1010</x>
                         <y>36</y>
                         <z>0</z>
-                        <width>85</width>
+                        <width>600</width>
                         <height>44</height>
                         <depth>0</depth>
-                        <hotspotX>0.505882382</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.081666663</hotspotX>
+                        <hotspotY>0.522727251</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

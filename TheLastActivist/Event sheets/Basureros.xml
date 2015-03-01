@@ -345,17 +345,17 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="3239915049387001" type="Animals">
                     <param id="0" name="Comparison">3</param>
-                    <param id="1" name="X co-ordinate">1000</param>
+                    <param id="1" name="X co-ordinate">-1000</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-13" name="Set boolean" sid="6310156209232976" type="Animals">
                     <param id="0" name="Instance variable">startMoving</param>
-                    <param id="1" name="Value">1</param>
+                    <param id="1" name="Value">0</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="83201373839729" type="Animals">
                     <param id="0" name="Instance variable">conMensaje</param>
-                    <param id="1" name="Value">1</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>

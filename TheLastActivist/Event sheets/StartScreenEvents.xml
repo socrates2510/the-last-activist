@@ -22,12 +22,6 @@
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block sid="1691361235486947">
-                                    <conditions>
-                                        <condition id="0" name="On clicked" sid="3698804168764415" type="Play" />
-                                    </conditions>
-                                    <actions />
-                                </event-block>
                                 <event-block sid="3511444217440459">
                                     <conditions>
                                         <condition id="7" name="Cursor is over object" sid="3749686196488995" type="Mouse">
@@ -119,6 +113,50 @@
                     <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="692383077782185">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="1824515744718028" type="CreditsButton" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="1779116356712016" type="CreditsButton">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="4547947765568908" type="CreditsButton">
+                    <param id="0" name="Property name">&quot;opacity&quot;</param>
+                    <param id="1" name="Value">&quot;0&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4435690945754044">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="8709370470449767" type="CreditsButton" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="2750018923212294" type="System">
+                            <param id="0" name="Layout">Credits</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6980068503269722">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="8002623018504785" type="Mouse">
+                            <param id="0" name="Object">CreditsButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set CSS style" sid="3456720861996828" type="CreditsButton">
+                            <param id="0" name="Property name">&quot;box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;inset 4px 4px rgba(110, 79, 44, 0.3)&quot;</param>
+                        </action>
+                        <action id="5" name="Set CSS style" sid="4807262058030567" type="CreditsButton">
+                            <param id="0" name="Property name">&quot;-webkit-box-shadow&quot;</param>
+                            <param id="1" name="Value">&quot;inset 4px 4px rgba(110, 79, 44, 0.3)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
