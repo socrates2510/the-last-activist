@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>obstaculos</name>
@@ -6,7 +6,7 @@
         <event-block sid="9334733756834114">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="9375563979597439" type="System">
-                    <param id="0" name="Interval (seconds)">8</param>
+                    <param id="0" name="Interval (seconds)">random(5,15)</param>
                 </condition>
             </conditions>
             <actions>
