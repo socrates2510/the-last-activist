@@ -181,13 +181,19 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\bg_inicio.png" />
         </object-type>
-        <object-type name="Player" sid="7958156988771075">
+        <object-type name="Play" sid="9334436852116356">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Mouse" sid="3351270417193394">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Player" sid="5001823464913216">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="running" sid="4884156933012489" type="boolean" />
+                <instance-variable name="running" sid="4804778050345569" type="boolean" />
             </instance-variables>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7082357935770751" speed="8">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2594691477592685" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
@@ -201,7 +207,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="2" loop="0" name="running" pingpong="0" repeatcount="1" repeatto="0" sid="1632919120682546" speed="5">
+                <animation framecount="2" loop="1" name="running" pingpong="0" repeatcount="1" repeatto="0" sid="8024302911748481" speed="8">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
@@ -229,11 +235,22 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Play" sid="9334436852116356">
-            <plugin id="Button" />
-        </object-type>
-        <object-type name="Mouse" sid="3351270417193394">
-            <plugin id="Mouse" />
+        <object-type name="Logo" sid="3420691280601554">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7277174462733833" speed="5">
+                    <frame duration="1" hotspotX="0.500752" hotspotY="0.506667" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\ISOLOGOTIPO.png">
+                        <collision-poly>
+                            <point x="0.0180451" y="0.16" />
+                            <point x="0.499248" y="0.133333" />
+                            <point x="0.984962" y="0.133333" />
+                            <point x="0.977444" y="0.8" />
+                            <point x="0.499248" y="0.36" />
+                            <point x="0.0270677" y="0.76" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
         <object-type name="Sprite2" sid="3875202950838938">
             <plugin id="Sprite" />
