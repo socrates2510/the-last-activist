@@ -42,7 +42,16 @@
                                     <conditions>
                                         <condition id="0" name="On clicked" sid="3698804168764415" type="Play" />
                                     </conditions>
-                                    <actions />
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="4444104391729408" type="Player">
+                                            <param id="0" name="Instance variable">running</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="9420507858574236" type="Player">
+                                            <param id="0" name="Animation">&quot;running&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                                 <event-block sid="3511444217440459">
                                     <conditions>
@@ -63,30 +72,14 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-block sid="3229439345566727">
-            <conditions>
-                <condition id="0" name="On clicked" sid="2827842062896209" type="Play" />
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="7452279614407423" type="Player">
-                    <param id="0" name="Instance variable">running</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="5875289107370191" type="Player">
-                    <param id="0" name="Animation">&quot;running&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="3609296980008051">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="5138879372154564" type="Player">
+                <condition id="-8" name="Is boolean instance variable set" sid="7996219228870022" type="Player">
                     <param id="0" name="Instance variable">running</param>
                 </condition>
-                <condition id="-1" name="Every tick" sid="9555724119204871" type="System" />
             </conditions>
             <actions>
-                <action id="-23" name="Move at angle" sid="5019721101339546" type="Player">
+                <action id="-23" name="Move at angle" sid="8279255791501719" type="Player">
                     <param id="0" name="Angle">-90</param>
                     <param id="1" name="Distance">300*dt</param>
                 </action>
@@ -94,24 +87,11 @@
         </event-block>
         <event-block sid="5720893630368761">
             <conditions>
-                <condition id="-4" name="Is outside layout" sid="8436699653920874" type="Player" />
+                <condition id="-4" name="Is outside layout" sid="3839627585443702" type="Player" />
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="8409676049344358" type="System">
                     <param id="0" name="Layout">MainGame</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="6181761695542109">
-            <conditions>
-                <condition id="-25" name="On loader layout complete" sid="2282988221962933" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="2092746970665588" type="Audio">
-                    <param id="0" name="Audio file">BACK_GROUND3</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-10</param>
-                    <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
             </actions>
         </event-block>
