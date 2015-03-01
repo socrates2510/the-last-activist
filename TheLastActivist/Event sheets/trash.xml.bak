@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>trash</name>
+    <events>
+        <event-block sid="7352440713878083">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9620288159208952" type="metal">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+                <condition id="-21" name="Is between values" sid="3031447144426011" type="System">
+                    <param id="0" name="Value">cant_metal</param>
+                    <param id="1" name="Lower bound">0</param>
+                    <param id="2" name="Upper bound">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="9211098038740216" type="Audio">
+                    <param id="0" name="Audio file">RECOGE_METAL</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="2635778289472949" type="System">
+                    <param id="0" name="Variable">cant_metal</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9982720824127625" type="metal" />
+            </actions>
+        </event-block>
+        <event-block sid="3965149127251496">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1376380038534269" type="organic">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+                <condition id="-21" name="Is between values" sid="5168404738865238" type="System">
+                    <param id="0" name="Value">cant_orga</param>
+                    <param id="1" name="Lower bound">0</param>
+                    <param id="2" name="Upper bound">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="9718249914062356" type="Audio">
+                    <param id="0" name="Audio file">RECOGE_ORGANICO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="4848318065576068" type="System">
+                    <param id="0" name="Variable">cant_orga</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2347492047533679" type="organic" />
+            </actions>
+        </event-block>
+        <event-block sid="6559165281578696">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="248299725376138" type="inorganic">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+                <condition id="-21" name="Is between values" sid="8205396268483778" type="System">
+                    <param id="0" name="Value">cant_inorga</param>
+                    <param id="1" name="Lower bound">0</param>
+                    <param id="2" name="Upper bound">99</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4394292156340167" type="Audio">
+                    <param id="0" name="Audio file">RECOGE_INORG</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="6165851323263587" type="System">
+                    <param id="0" name="Variable">cant_inorga</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9570963817582903" type="inorganic" />
+            </actions>
+        </event-block>
+        <event-block sid="9802668304079407">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5931486670371648" type="glass">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+                <condition id="-21" name="Is between values" sid="789423039268669" type="System">
+                    <param id="0" name="Value">cant_glass</param>
+                    <param id="1" name="Lower bound">0</param>
+                    <param id="2" name="Upper bound">99</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4991527131020989" type="Audio">
+                    <param id="0" name="Audio file">RECOGE_VIDRIO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="9568197396076942" type="System">
+                    <param id="0" name="Variable">cant_glass</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8342959408297704" type="glass" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

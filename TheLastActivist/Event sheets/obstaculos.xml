@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>obstaculos</name>
@@ -55,16 +55,6 @@
                     <param id="0" name="Variable">GlobalSpeed</param>
                     <param id="1" name="Value">GlobalInicialSpeed</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="3809625078544401">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="9691393015841281" type="obstaculos">
-                    <param id="0" name="Object">Avalanch</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="9946815359439535" type="obstaculos" />
             </actions>
         </event-block>
     </events>

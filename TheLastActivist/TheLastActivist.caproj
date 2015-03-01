@@ -504,7 +504,6 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-
                 <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="8">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Downloads\main_character_anim02.png">
                         <collision-poly>
@@ -528,7 +527,6 @@
                             <point x="0.494118" y="0.857143" />
                             <point x="0.305882" y="0.587302" />
                             <point x="0.0588235" y="0.492063" />
-
                         </collision-poly>
                     </frame>
                 </animation>
@@ -707,7 +705,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-
         <object-type name="basureros" sid="7841961559154008">
             <plugin id="Sprite" />
             <instance-variables>
@@ -868,9 +865,9 @@
         <event-sheet>obstaculos.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="23" />
-        <global-instance type="Mouse" uid="28" />
-        <global-instance type="Audio" uid="33">
+        <global-instance type="Keyboard" uid="28" />
+        <global-instance type="Mouse" uid="33" />
+        <global-instance type="Audio" uid="41">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -903,10 +900,8 @@
         <file name="RECOGE_METAL.ogg" />
         <file name="RECOGE_ORGANICO.m4a" />
         <file name="RECOGE_ORGANICO.ogg" />
-
         <file name="CLAP.m4a" />
         <file name="CLAP.ogg" />
-
         <file name="BASURA_AL_BASURERO.m4a" />
         <file name="BASURA_AL_BASURERO.ogg" />
         <file name="RECOGE_INORG.m4a" />
@@ -921,10 +916,9 @@
         <file name="RECOGE_INORG.ogg" />
         <file name="CHOQUE_OBST.m4a" />
         <file name="CHOQUE_OBST.ogg" />
-
     </sounds-folder>
     <music-folder />
-    	<files-folder>
+    <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
             <file name="icon-32.png" />

@@ -281,8 +281,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>481</x>
-                        <y>969</y>
+                        <x>484</x>
+                        <y>964</y>
                         <z>0</z>
                         <width>970</width>
                         <height>983</height>
@@ -334,15 +334,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>379</x>
-                        <y>-1291</y>
+                        <x>-621</x>
+                        <y>335</y>
                         <z>0</z>
                         <width>56</width>
                         <height>58</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>1.542285323</angle>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -368,8 +368,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>679</x>
-                        <y>-657</y>
+                        <x>-353</x>
+                        <y>424</y>
                         <z>0</z>
                         <width>56</width>
                         <height>58</height>
@@ -380,8 +380,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-
-
                 <instance type="basureros" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -395,8 +393,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>866</x>
-                        <y>60</y>
+                        <x>764</x>
+                        <y>113</y>
                         <z>0</z>
                         <width>70</width>
                         <height>108</height>
@@ -488,8 +486,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>867</x>
-                        <y>177</y>
+                        <x>881</x>
+                        <y>114</y>
                         <z>0</z>
                         <width>70</width>
                         <height>108</height>
@@ -513,8 +511,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>62</y>
+                        <x>205</x>
+                        <y>112</y>
                         <z>0</z>
                         <width>70</width>
                         <height>108</height>
@@ -538,8 +536,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>783</x>
-                        <y>177</y>
+                        <x>88</x>
+                        <y>113</y>
                         <z>0</z>
                         <width>70</width>
                         <height>108</height>
@@ -898,8 +896,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>202</x>
-                        <y>-887</y>
+                        <x>274</x>
+                        <y>143</y>
                         <z>0</z>
                         <width>82.926826477</width>
                         <height>38.945453644</height>
@@ -910,7 +908,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Game_Over" uid="35">
+                <instance type="Game_Over" uid="23">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

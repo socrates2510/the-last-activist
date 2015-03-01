@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">MainGame</layout>
+        <layout order="4">Start_Screen</layout>
+        <event-sheet order="1">trash</event-sheet>
+        <event-sheet order="2">MainGameEvents</event-sheet>
+        <event-sheet order="3">bars</event-sheet>
+        <event-sheet order="5">obstaculos</event-sheet>
+        <event-sheet order="6">spawns</event-sheet>
+        <event-sheet order="7">Basureros</event-sheet>
+        <event-sheet active="1" order="8">Avalancha</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+<<<<<<< HEAD
+        <folder expanded="0" path="layout-folder/" />
+=======
+        <folder expanded="1" path="layout-folder/" />
+>>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Ground/" />
+        <folder expanded="1" path="animation-folder/RightTrees/" />
+        <folder expanded="1" path="animation-folder/LeftSprite/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/PlayerIntro/" />
+        <folder expanded="1" path="animation-folder/Logo/" />
+        <folder expanded="1" path="animation-folder/Avalanch/" />
+        <folder expanded="1" path="animation-folder/organic/" />
+        <folder expanded="1" path="animation-folder/metal/" />
+        <folder expanded="1" path="animation-folder/bar_inorga/" />
+        <folder expanded="1" path="animation-folder/bar_metal/" />
+        <folder expanded="1" path="animation-folder/bar_orga/" />
+        <folder expanded="1" path="animation-folder/bar_glass/" />
+        <folder expanded="1" path="animation-folder/follower/" />
+        <folder expanded="1" path="animation-folder/metal_bar/" />
+        <folder expanded="1" path="animation-folder/glass_bar/" />
+        <folder expanded="1" path="animation-folder/inorga_bar/" />
+        <folder expanded="1" path="animation-folder/orga_bar/" />
+        <folder expanded="1" path="animation-folder/obstaculos/" />
+        <folder expanded="1" path="animation-folder/Play_button/" />
+<<<<<<< HEAD
+        <folder expanded="1" path="animation-folder/basureros/" />
+        <folder expanded="1" path="animation-folder/glass/" />
+        <folder expanded="1" path="animation-folder/inorganic/" />
+=======
+>>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
+    </folders-expanded>
+</c2uistate>
