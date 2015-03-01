@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MainGame</layout>
-        <layout active="1" order="4">Start_Screen</layout>
+        <layout order="4">Start_Screen</layout>
         <event-sheet order="1">MainGameEvents</event-sheet>
-        <event-sheet order="2">Parallax</event-sheet>
+        <event-sheet active="1" order="2">Parallax</event-sheet>
         <event-sheet order="3">PC</event-sheet>
         <event-sheet order="5">StartScreenEvents</event-sheet>
     </open-tabs>
@@ -38,5 +38,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Player/" />
         <folder expanded="1" path="animation-folder/Logo/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
     </folders-expanded>
 </c2uistate>
