@@ -66,6 +66,23 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3158361449965308">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9207722494519984" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8203953175641048" type="PlayerIntro">
+                    <param id="0" name="Instance variable">running</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="6946940678754374" type="PlayerIntro">
+                    <param id="0" name="Animation">&quot;running&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="3609296980008051">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="5138879372154564" type="PlayerIntro">

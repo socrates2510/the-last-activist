@@ -1034,6 +1034,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite2" sid="4567267888572236">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4610459766803289" speed="5">
+                    <frame duration="1" hotspotX="0.502041" hotspotY="0.512748" original-source="C:\Users\TAPON\Downloads\PRINCIPAL_01.png">
+                        <collision-poly>
+                            <point x="0.0176871" y="0.0396601" />
+                            <point x="0.502041" y="0.968839" />
+                            <point x="0.986395" y="0.0396601" />
+                            <point x="0.998639" y="0.509915" />
+                            <point x="0.895238" y="0.793201" />
+                            <point x="0.502041" y="0.994334" />
+                            <point x="0.111565" y="0.787535" />
+                            <point x="0.00136054" y="0.509915" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
