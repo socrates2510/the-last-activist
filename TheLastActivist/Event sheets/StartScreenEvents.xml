@@ -66,6 +66,23 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3158361449965308">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9207722494519984" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="8203953175641048" type="PlayerIntro">
+                    <param id="0" name="Instance variable">running</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="6946940678754374" type="PlayerIntro">
+                    <param id="0" name="Animation">&quot;running&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="3609296980008051">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="5138879372154564" type="PlayerIntro">
@@ -98,7 +115,7 @@
                 <action id="0" name="Play" sid="2092746970665588" type="Audio">
                     <param id="0" name="Audio file">BACK_GROUND3</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-10</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
             </actions>

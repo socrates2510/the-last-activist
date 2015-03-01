@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>TheLastActivist</name>
     <description></description>
@@ -1077,6 +1077,8 @@
         <file name="RECOGE_INORG.ogg" />
         <file name="CHOQUE_OBST.m4a" />
         <file name="CHOQUE_OBST.ogg" />
+        <file name="MIX_AVALANCHE.m4a" />
+        <file name="MIX_AVALANCHE.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

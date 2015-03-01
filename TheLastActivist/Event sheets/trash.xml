@@ -18,7 +18,7 @@
                 <action id="0" name="Play" sid="9211098038740216" type="Audio">
                     <param id="0" name="Audio file">RECOGE_METAL</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">3</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="2635778289472949" type="System">
@@ -43,7 +43,7 @@
                 <action id="0" name="Play" sid="9718249914062356" type="Audio">
                     <param id="0" name="Audio file">RECOGE_ORGANICO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="4848318065576068" type="System">
@@ -68,7 +68,7 @@
                 <action id="0" name="Play" sid="4394292156340167" type="Audio">
                     <param id="0" name="Audio file">RECOGE_INORG</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">3</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="6165851323263587" type="System">
@@ -93,7 +93,7 @@
                 <action id="0" name="Play" sid="4991527131020989" type="Audio">
                     <param id="0" name="Audio file">RECOGE_VIDRIO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">3</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="9568197396076942" type="System">
