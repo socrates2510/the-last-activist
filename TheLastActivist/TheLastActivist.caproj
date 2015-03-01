@@ -58,7 +58,17 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5306348028275712" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\right_trees.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\right_trees.png">
+                        <collision-poly>
+                            <point x="0.0595238" y="0.0263158" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0595238" y="0.973684" />
+                            <point x="0.380952" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -66,7 +76,17 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373483135407166" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\left_trees.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\left_trees.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0.131579" />
+                            <point x="0.690476" y="0.136842" />
+                            <point x="0.154762" y="0.5" />
+                            <point x="0.571429" y="0.810526" />
+                            <point x="0.5" y="0.857895" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -81,13 +101,13 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8547851565098841" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
                         <collision-poly>
-                            <point x="0.280487" y="0.181818" />
-                            <point x="0.45122" y="0" />
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
                             <point x="0.902439" y="0.145455" />
-                            <point x="0.939024" y="0.345454" />
-                            <point x="0.768292" y="0.636364" />
-                            <point x="0.634146" y="0.909091" />
-                            <point x="0.0243907" y="0.709091" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
                             <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
@@ -95,43 +115,54 @@
                 <animation framecount="2" loop="1" name="Corriendo" pingpong="0" repeatcount="1" repeatto="0" sid="6002776351341614" speed="8">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091">
                         <collision-poly>
-                            <point x="0.207317" y="0.272727" />
-                            <point x="0.378049" y="0" />
-                            <point x="0.989329" y="0.154546" />
-                            <point x="0.946646" y="0.386364" />
-                            <point x="0.629573" y="0.904545" />
-                            <point x="0.297256" y="0.718182" />
-                            <point x="0" y="0.781818" />
-                            <point x="0" y="0.472727" />
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
                         <collision-poly>
-                            <point x="0" y="0.127273" />
-                            <point x="0.256098" y="0.236364" />
-                            <point x="0.536585" y="0" />
+                            <point x="0.097561" y="0.145455" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.731707" y="0.4" />
                             <point x="0.914634" y="0.490909" />
-                            <point x="0.926829" y="0.709091" />
+                            <point x="0.804878" y="0.709091" />
                             <point x="0.5" y="0.709091" />
-                            <point x="0.390244" y="1" />
-                            <point x="0.0365849" y="0.472727" />
+                            <point x="0.268293" y="0.6" />
+                            <point x="0.146341" y="0.490909" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Muerte" pingpong="0" repeatcount="1" repeatto="0" sid="4773210739027439" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="BotarIzq" pingpong="0" repeatcount="1" repeatto="0" sid="2418185241243078" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_02.png">
                         <collision-poly>
-                            <point x="0" y="0.0727273" />
-                            <point x="0.54878" y="0" />
-                            <point x="0.780488" y="0.272728" />
-                            <point x="1" y="0.745454" />
-                            <point x="0.731707" y="0.672727" />
-                            <point x="0.451219" y="0.690909" />
-                            <point x="0.402439" y="1" />
-                            <point x="0" y="0.436364" />
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -139,12 +170,12 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\main_anim_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
-                            <point x="0.329268" y="0" />
-                            <point x="0.939024" y="0.218182" />
-                            <point x="0.756097" y="0.618182" />
-                            <point x="0.634146" y="0.963636" />
-                            <point x="0.341463" y="0.763637" />
-                            <point x="0.0121951" y="0.781818" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
                             <point x="0.0487805" y="0.490909" />
                         </collision-poly>
                     </frame>
@@ -171,7 +202,18 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2594691477592685" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png">
+                        <collision-poly>
+                            <point x="0.243902" y="0.363636" />
+                            <point x="0.5" y="0.163636" />
+                            <point x="0.902439" y="0.145455" />
+                            <point x="0.817073" y="0.490909" />
+                            <point x="0.731707" y="0.6" />
+                            <point x="0.5" y="0.727273" />
+                            <point x="0.256098" y="0.618182" />
+                            <point x="0.0487805" y="0.490909" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="running" pingpong="0" repeatcount="1" repeatto="0" sid="8024302911748481" speed="8">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png">
@@ -224,80 +266,65 @@
                 <animation framecount="5" loop="1" name="avalancha" pingpong="0" repeatcount="1" repeatto="0" sid="9814971606158798" speed="8">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_01.png">
                         <collision-poly>
-                            <point x="0.0855386" y="0.0771528" />
-                            <point x="0.243371" y="0.0799402" />
-                            <point x="0.270151" y="0.114243" />
-                            <point x="0.423912" y="0.0974516" />
-                            <point x="0.442302" y="0.12711" />
-                            <point x="0.539846" y="0.127241" />
-                            <point x="0.559044" y="0.0876834" />
-                            <point x="0.786236" y="0.0990969" />
-                            <point x="0.823787" y="0.127501" />
-                            <point x="0.911078" y="0.11824" />
-                            <point x="0.916387" y="0.0788198" />
-                            <point x="0.998369" y="0.081471" />
-                            <point x="0.996587" y="0.993255" />
-                            <point x="0.000853242" y="0.998314" />
-                            <point x="0" y="0.107926" />
+                            <point x="0.163132" y="0.079288" />
+                            <point x="0.307504" y="0.115696" />
+                            <point x="0.664764" y="0.0995146" />
+                            <point x="0.846656" y="0.13754" />
+                            <point x="1" y="0.0716019" />
+                            <point x="0.995922" y="0.995955" />
+                            <point x="0.000815661" y="0.999191" />
+                            <point x="0" y="0.118123" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_02.png">
                         <collision-poly>
-                            <point x="0.0787238" y="0.0959567" />
-                            <point x="0.112246" y="0.0496055" />
-                            <point x="0.218564" y="0.0502739" />
-                            <point x="0.231659" y="0.101481" />
-                            <point x="0.718942" y="0.0822705" />
-                            <point x="0.799798" y="0.033016" />
-                            <point x="0.855949" y="0.0390588" />
-                            <point x="0.927974" y="0.0988803" />
-                            <point x="1" y="0.102067" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.128622" />
+                            <point x="0.124796" y="0.0590615" />
+                            <point x="0.219413" y="0.0703883" />
+                            <point x="0.287113" y="0.125405" />
+                            <point x="0.579935" y="0.0865696" />
+                            <point x="0.825857" y="0.0408576" />
+                            <point x="1" y="0.118123" />
+                            <point x="0.995922" y="0.995955" />
+                            <point x="0.000815661" y="0.999191" />
+                            <point x="0" y="0.11165" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_03.png">
                         <collision-poly>
-                            <point x="0.203275" y="0.0442921" />
-                            <point x="0.274317" y="0.0831195" />
-                            <point x="0.377636" y="0.0978078" />
-                            <point x="0.4463" y="0.00161812" />
-                            <point x="0.529482" y="0" />
-                            <point x="0.60002" y="0.0863936" />
-                            <point x="0.913838" y="0.0983066" />
-                            <point x="1" y="0.085713" />
-                            <point x="1" y="1" />
+                            <point x="0.0734095" y="0.0436893" />
+                            <point x="0.284666" y="0.079288" />
+                            <point x="0.404568" y="0.079288" />
+                            <point x="0.481648" y="0.0080906" />
+                            <point x="0.594617" y="0.0889967" />
+                            <point x="1" y="0.0889967" />
+                            <point x="0.995106" y="0.995146" />
                             <point x="0" y="1" />
-                            <point x="0" y="0.118044" />
-                            <point x="0.0682594" y="0.0404722" />
+                            <point x="0" y="0.114887" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_04.png">
                         <collision-poly>
-                            <point x="0.0755894" y="0" />
-                            <point x="0.348185" y="0" />
-                            <point x="0.384671" y="0.0771018" />
-                            <point x="0.739104" y="0.0632133" />
-                            <point x="0.836424" y="0.110927" />
-                            <point x="0.895622" y="0.053685" />
-                            <point x="1" y="0.108386" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0.00341297" y="0.121417" />
+                            <point x="0.0774878" y="0" />
+                            <point x="0.330343" y="0.00242718" />
+                            <point x="0.390294" y="0.0861651" />
+                            <point x="0.900489" y="0.066343" />
+                            <point x="1" y="0.127832" />
+                            <point x="0.995106" y="0.995146" />
+                            <point x="0.000815661" y="0.999191" />
+                            <point x="0" y="0.101942" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_05.png">
                         <collision-poly>
-                            <point x="0.0149218" y="0" />
-                            <point x="0.202976" y="0" />
-                            <point x="0.313524" y="0.132806" />
-                            <point x="0.489427" y="0.0725395" />
-                            <point x="0.600985" y="0.100039" />
-                            <point x="1" y="0.0987246" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0.00682594" y="0.148858" />
+                            <point x="0" y="0.00889967" />
+                            <point x="0.202284" y="0" />
+                            <point x="0.2031" y="0.0889967" />
+                            <point x="0.343597" y="0.137237" />
+                            <point x="0.438418" y="0.0786812" />
+                            <point x="0.686582" y="0.11074" />
+                            <point x="1" y="0.123382" />
+                            <point x="0.995922" y="0.995955" />
+                            <point x="0.000815661" y="0.999191" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -315,30 +342,30 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="img1" pingpong="0" repeatcount="1" repeatto="0" sid="3696526210682245" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\manzana01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\MANZANA.png">
                         <collision-poly>
-                            <point x="0.0833331" y="0.875" />
-                            <point x="0" y="0.375" />
-                            <point x="0.25" y="0.15625" />
-                            <point x="0.520833" y="0.101563" />
-                            <point x="0.861111" y="0.0859375" />
-                            <point x="1" y="0.59375" />
-                            <point x="0.861111" y="0.78125" />
-                            <point x="0.5" y="0.90625" />
+                            <point x="0.178571" y="0.172414" />
+                            <point x="0.5" y="0.0517241" />
+                            <point x="0.821429" y="0.172414" />
+                            <point x="0.982143" y="0.5" />
+                            <point x="0.839286" y="0.844828" />
+                            <point x="0.5" y="0.965517" />
+                            <point x="0.160714" y="0.844828" />
+                            <point x="0.0357143" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="2126052056016339" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\banano01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\BANANA.png">
                         <collision-poly>
-                            <point x="0.222223" y="0.694444" />
-                            <point x="0" y="0.527778" />
-                            <point x="0.0347222" y="0.222222" />
-                            <point x="0.479167" y="0" />
-                            <point x="0.993056" y="0.111111" />
-                            <point x="1" y="0.604166" />
-                            <point x="0.798611" y="0.986111" />
-                            <point x="0.555556" y="0.694444" />
+                            <point x="0.178571" y="0.172414" />
+                            <point x="0.5" y="0.0517241" />
+                            <point x="0.821429" y="0.172414" />
+                            <point x="0.982143" y="0.5" />
+                            <point x="0.839286" y="0.844828" />
+                            <point x="0.5" y="0.965517" />
+                            <point x="0.160714" y="0.844828" />
+                            <point x="0.0357143" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -353,30 +380,30 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="img1" pingpong="0" repeatcount="1" repeatto="0" sid="401445066260781" speed="5">
-                    <frame duration="1" hotspotX="0.472222" hotspotY="0.48" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\cerveza_azul.png">
+                    <frame duration="1" hotspotX="0.464286" hotspotY="0.482759" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\BIRRA.png">
                         <collision-poly>
-                            <point x="0.159722" y="0.95" />
+                            <point x="0.111111" y="0.76" />
                             <point x="0.0277778" y="0.48" />
-                            <point x="0.0347221" y="0.16" />
-                            <point x="0.454861" y="0.02" />
-                            <point x="0.947917" y="0.0375" />
-                            <point x="1" y="0.3075" />
-                            <point x="0.930555" y="0.8525" />
-                            <point x="0.375" y="0.9225" />
+                            <point x="0.111111" y="0.2" />
+                            <point x="0.444444" y="0.08" />
+                            <point x="0.81746" y="0.166207" />
+                            <point x="0.972222" y="0.48" />
+                            <point x="0.861111" y="0.84" />
+                            <point x="0.426587" y="0.995172" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="4653323459473519" speed="5">
-                    <frame duration="1" hotspotX="0.486486" hotspotY="0.48" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\cerveza_dorada.png">
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.482759" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\BIRRA_01.png">
                         <collision-poly>
                             <point x="0.135135" y="0.76" />
                             <point x="0.054054" y="0.48" />
                             <point x="0.135135" y="0.2" />
                             <point x="0.459459" y="0.08" />
-                            <point x="0.891892" y="0.08" />
+                            <point x="0.766892" y="0.131724" />
                             <point x="0.972973" y="0.48" />
                             <point x="0.864865" y="0.84" />
-                            <point x="0.459459" y="0.84" />
+                            <point x="0.38803" y="0.96069" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -414,22 +441,19 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text_Play" sid="2575067108630687">
+        <object-type name="follower" sid="5247067628745368">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="follower" sid="134417302334308" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="9969522238118103">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5767127764879895" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\play_screen.png">
-                        <collision-poly>
-                            <point x="0.0581395" y="0.172414" />
-                            <point x="0.5" y="0.206897" />
-                            <point x="0.953488" y="0.137931" />
-                            <point x="0.965116" y="0.482759" />
-                            <point x="0.906977" y="0.724138" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0348837" y="0.896552" />
-                            <point x="0.0232558" y="0.482759" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.490909" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -550,6 +574,49 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Play_button" sid="2294627435913878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2808547361839029" speed="5">
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\button_01.png">
+                        <collision-poly>
+                            <point x="0.036036" y="0.0392157" />
+                            <point x="0.495495" y="0" />
+                            <point x="0.963964" y="0.0392157" />
+                            <point x="1" y="0.5" />
+                            <point x="0.963964" y="0.960784" />
+                            <point x="0.495495" y="1" />
+                            <point x="0.045045" y="0.95098" />
+                            <point x="0.00900901" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\button_02.png">
+                        <collision-poly>
+                            <point x="0.036036" y="0.0392157" />
+                            <point x="0.495495" y="0" />
+                            <point x="0.963964" y="0.0392157" />
+                            <point x="1" y="0.5" />
+                            <point x="0.963964" y="0.960784" />
+                            <point x="0.495495" y="1" />
+                            <point x="0.045045" y="0.95098" />
+                            <point x="0.00900901" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\button_03.png">
+                        <collision-poly>
+                            <point x="0.036036" y="0.0392157" />
+                            <point x="0.495495" y="0" />
+                            <point x="0.963964" y="0.0392157" />
+                            <point x="1" y="0.5" />
+                            <point x="0.963964" y="0.960784" />
+                            <point x="0.495495" y="1" />
+                            <point x="0.045045" y="0.95098" />
+                            <point x="0.00900901" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -563,6 +630,7 @@
         <event-sheet>StartScreenEvents.xml</event-sheet>
         <event-sheet>spawns.xml</event-sheet>
         <event-sheet>Avalancha.xml</event-sheet>
+        <event-sheet>NPC.xml</event-sheet>
         <event-sheet>trash.xml</event-sheet>
         <event-sheet>bars.xml</event-sheet>
         <event-sheet>Basureros.xml</event-sheet>
