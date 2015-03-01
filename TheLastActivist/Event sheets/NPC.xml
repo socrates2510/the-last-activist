@@ -14,13 +14,8 @@
                     <param id="0" name="Instance variable">follower</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="3878699505508184" type="follower">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="3640299144271371" type="follower">
                     <param id="0" name="State">0</param>
-                </action>
-                <action id="-21" name="Rotate toward position" sid="2832389977107984" type="follower">
-                    <param id="0" name="Degrees">-90</param>
-                    <param id="1" name="X">0</param>
-                    <param id="2" name="Y">0</param>
                 </action>
             </actions>
         </event-block>
