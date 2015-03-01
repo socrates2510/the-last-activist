@@ -40,7 +40,7 @@
                 <action id="0" name="Play" sid="5699082454326375" type="Audio">
                     <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Set value" sid="5605153873771675" type="Animals">
@@ -75,7 +75,7 @@
                 <action id="0" name="Play" sid="7141089680361845" type="Audio">
                     <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Set value" sid="5842233890042033" type="Animals">
@@ -110,7 +110,7 @@
                 <action id="0" name="Play" sid="9798035596948676" type="Audio">
                     <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Set value" sid="8275725633371364" type="Animals">
@@ -145,7 +145,7 @@
                 <action id="0" name="Play" sid="7972505996109406" type="Audio">
                     <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-7</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-10" name="Set value" sid="8568413874466799" type="Animals">
