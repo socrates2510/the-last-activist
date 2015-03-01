@@ -2,5 +2,246 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Basureros</name>
-    <events />
+    <events>
+        <event-block sid="2796147051764072">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6435332706296823" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="5577316831016266" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="5333628901859717" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;organico&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4198767625201236" type="System">
+                    <param id="0" name="Variable">cant_orga</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Play" sid="7141089680361845" type="Audio">
+                    <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1374475163866081">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7447520573198115" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="8885208693670273" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="3423177984782443" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;metal&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4383667797383575" type="System">
+                    <param id="0" name="Variable">cant_metal</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Play" sid="9798035596948676" type="Audio">
+                    <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4883038242838801">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4093933229744862" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="3741599530402281" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="1066166535269101" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;inorganico&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2142759656161316" type="System">
+                    <param id="0" name="Variable">cant_inorga</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Play" sid="5699082454326375" type="Audio">
+                    <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9207282321311907">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9169949960786207" type="Keyboard">
+                    <param id="0" name="Key">70 (F)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="6414367608539948" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="9096842593828015" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;vidrio&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="971351721673569" type="System">
+                    <param id="0" name="Variable">cant_glass</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Play" sid="7972505996109406" type="Audio">
+                    <param id="0" name="Audio file">BASURA_AL_BASURERO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8784295405340562">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1637427265904617" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="2882339273610434" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="3033138664889792" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;organico&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="3086771122475178" type="System">
+                    <param id="0" name="Object to create">organic</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">Sprite.X</param>
+                    <param id="3" name="Y">Sprite.Y+60</param>
+                </action>
+                <action id="4" name="Set animation" sid="9674499776399956" type="organic">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="8378855632720423" type="Audio">
+                    <param id="0" name="Audio file">RECIPIENTE_EQUIVOC</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2412547645515837">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="949503424076283" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="4005186899582605" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="9478855484003238" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;metal&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="7086757242940666" type="System">
+                    <param id="0" name="Object to create">metal</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">Sprite.X</param>
+                    <param id="3" name="Y">Sprite.Y+60</param>
+                </action>
+                <action id="4" name="Set animation" sid="1868418035904885" type="metal">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="8662877588305343" type="Audio">
+                    <param id="0" name="Audio file">RECIPIENTE_EQUIVOC</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1819574702524847">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9925349638908991" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="5700614755968987" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="1012993054117116" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;inorganico&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1321113446501178" type="System">
+                    <param id="0" name="Object to create">inorganic</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">Sprite.X</param>
+                    <param id="3" name="Y">Sprite.Y+60</param>
+                </action>
+                <action id="4" name="Set animation" sid="8407084882113947" type="inorganic">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="3171812624991375" type="Audio">
+                    <param id="0" name="Audio file">RECIPIENTE_EQUIVOC</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7599916604469471">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8731906402899201" type="Keyboard">
+                    <param id="0" name="Key">70 (F)</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="3781637807764795" type="Sprite">
+                    <param id="0" name="Object">basureros</param>
+                </condition>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="7071273954810397" type="basureros">
+                    <param id="0" name="Instance variable">tipo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;vidrio&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="5764491544276639" type="System">
+                    <param id="0" name="Object to create">glass</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">Sprite.X</param>
+                    <param id="3" name="Y">Sprite.Y+60</param>
+                </action>
+                <action id="4" name="Set animation" sid="1621441825183701" type="glass">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="3524654852470989" type="Audio">
+                    <param id="0" name="Audio file">RECIPIENTE_EQUIVOC</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

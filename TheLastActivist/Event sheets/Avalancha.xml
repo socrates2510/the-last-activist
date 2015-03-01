@@ -14,6 +14,12 @@
                     <param id="0" name="Y">Avalanch.Y-20</param>
                 </action>
                 <action id="-9" name="Destroy" sid="2313484329388923" type="organic" />
+                <action id="0" name="Play" sid="1596732553822946" type="Audio">
+                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="3401038605793204">
@@ -27,6 +33,50 @@
                     <param id="0" name="Y">Avalanch.Y-20</param>
                 </action>
                 <action id="-9" name="Destroy" sid="8781145846971171" type="metal" />
+                <action id="0" name="Play" sid="9282628261226005" type="Audio">
+                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5857106193452893">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9296735140844373" type="Avalanch">
+                    <param id="0" name="Object">inorganic</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="4756835875010049" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y-20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8417243640591352" type="inorganic" />
+                <action id="0" name="Play" sid="8078192082354061" type="Audio">
+                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7180851436809911">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2830763534064601" type="Avalanch">
+                    <param id="0" name="Object">glass</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="884965428431303" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y-20</param>
+                </action>
+                <action id="-9" name="Destroy" sid="3418904747701554" type="glass" />
+                <action id="0" name="Play" sid="8003982929488284" type="Audio">
+                    <param id="0" name="Audio file">BASURA_A_AVALANCHA</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9528868843321488">

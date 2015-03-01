@@ -6,7 +6,7 @@
         <event-block sid="9773874195827097">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="2362869829067243" type="System">
-                    <param id="0" name="Interval (seconds)">4</param>
+                    <param id="0" name="Interval (seconds)">random(3,5)</param>
                 </condition>
             </conditions>
             <actions>
@@ -25,7 +25,7 @@
         <event-block sid="7550480460646196">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="5439207641838912" type="System">
-                    <param id="0" name="Interval (seconds)">6</param>
+                    <param id="0" name="Interval (seconds)">random(3,5)</param>
                 </condition>
             </conditions>
             <actions>
@@ -36,6 +36,44 @@
                     <param id="3" name="Y">-20</param>
                 </action>
                 <action id="4" name="Set animation" sid="3137302666395296" type="metal">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9172488917824854">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="1635726598676673" type="System">
+                    <param id="0" name="Interval (seconds)">random(3,5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="9573834131564706" type="System">
+                    <param id="0" name="Object to create">inorganic</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">random(800,160)</param>
+                    <param id="3" name="Y">-20</param>
+                </action>
+                <action id="4" name="Set animation" sid="5759280936353974" type="inorganic">
+                    <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1965252991464841">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6494869648887135" type="System">
+                    <param id="0" name="Interval (seconds)">random(3,5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="4976006156002274" type="System">
+                    <param id="0" name="Object to create">glass</param>
+                    <param id="1" name="Layer">&quot;Basura&quot;</param>
+                    <param id="2" name="X">random(800,160)</param>
+                    <param id="3" name="Y">-20</param>
+                </action>
+                <action id="4" name="Set animation" sid="1575058332008661" type="glass">
                     <param id="0" name="Animation">&quot;img&quot;&amp;round(random(1,2))</param>
                     <param id="1" name="From">1</param>
                 </action>
