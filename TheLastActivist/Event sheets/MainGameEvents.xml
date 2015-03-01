@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MainGameEvents</name>
     <events>
+        <include>NPC</include>
+        <include>Avalancha</include>
         <variable constant="0" name="MAX_VELOCIDAD_PC" sid="9492884753792322" static="0" type="number">600</variable>
         <variable constant="0" name="VelocidadPC" sid="5520477415701656" static="0" type="number">600</variable>
         <variable constant="1" name="AREA_PC_OFFSET_Y" sid="4069807062400402" static="0" type="number">100</variable>

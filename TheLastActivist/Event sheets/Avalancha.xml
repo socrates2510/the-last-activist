@@ -57,6 +57,7 @@
                     <param id="0" name="Layout">Start_Screen</param>
                 </action>
                 <action id="2" name="Set muted" sid="2314385382283122" type="Audio">
+
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
