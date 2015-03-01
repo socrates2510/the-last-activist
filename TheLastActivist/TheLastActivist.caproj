@@ -258,7 +258,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="5" loop="1" name="avalancha" pingpong="0" repeatcount="1" repeatto="0" sid="9814971606158798" speed="8">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_01.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500843" original-source="C:\Users\apizarro\Downloads\aavalanche_01.png">
                         <collision-poly>
                             <point x="0.148178" y="0.14023" />
                             <point x="0.499595" y="0.00383142" />
@@ -269,7 +269,7 @@
                             <point x="0.00161943" y="0.499617" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_02.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500843" original-source="C:\Users\apizarro\Downloads\aavalanche_02.png">
                         <collision-poly>
                             <point x="0.148178" y="0.14023" />
                             <point x="0.499595" y="0.00383142" />
@@ -280,7 +280,7 @@
                             <point x="0.00161943" y="0.499617" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_03.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500843" original-source="C:\Users\apizarro\Downloads\aavalanche_03.png">
                         <collision-poly>
                             <point x="0.148178" y="0.14023" />
                             <point x="0.499595" y="0.00383142" />
@@ -291,7 +291,7 @@
                             <point x="0.00161943" y="0.499617" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_04.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500843" original-source="C:\Users\apizarro\Downloads\aavalanche_04.png">
                         <collision-poly>
                             <point x="0.148178" y="0.14023" />
                             <point x="0.499595" y="0.00383142" />
@@ -302,7 +302,7 @@
                             <point x="0.00161943" y="0.499617" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Downloads\avalanche_05.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500843" original-source="C:\Users\apizarro\Downloads\aavalanche_05.png">
                         <collision-poly>
                             <point x="0.148178" y="0.14023" />
                             <point x="0.499595" y="0.00383142" />
@@ -395,102 +395,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bar_inorga" sid="7406434948278637">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3487542793466379" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.488" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="bar_metal" sid="2729017898649602">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="5">
-                    <frame duration="1" hotspotX="-0.004" hotspotY="0.492" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="bar_orga" sid="8790123442565916">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6776288293677596" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="bar_glass" sid="7516331209218082">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6116082265359276" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.488" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="basurero" sid="5555706443215044">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="tipo" sid="3039452259748805" type="string" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="inorganico" pingpong="0" repeatcount="1" repeatto="0" sid="2982361871751169" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\pr_Red_Garbage.png">
-                        <collision-poly>
-                            <point x="0.128571" y="0.0833333" />
-                            <point x="0.5" y="0.0555556" />
-                            <point x="0.842857" y="0.101852" />
-                            <point x="0.914286" y="0.5" />
-                            <point x="0.871429" y="0.916667" />
-                            <point x="0.5" y="0.962963" />
-                            <point x="0.128571" y="0.916667" />
-                            <point x="0.0571429" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="organico" pingpong="0" repeatcount="1" repeatto="0" sid="2136996371830031" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\pr_Green_Garbage.png">
-                        <collision-poly>
-                            <point x="0.128571" y="0.0833333" />
-                            <point x="0.5" y="0.0555556" />
-                            <point x="0.842857" y="0.101852" />
-                            <point x="0.914286" y="0.5" />
-                            <point x="0.871429" y="0.916667" />
-                            <point x="0.5" y="0.962963" />
-                            <point x="0.128571" y="0.916667" />
-                            <point x="0.0571429" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="vidrio" pingpong="0" repeatcount="1" repeatto="0" sid="1379716510453105" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\pr_Yellow_Garbage.png">
-                        <collision-poly>
-                            <point x="0.128571" y="0.0833333" />
-                            <point x="0.5" y="0.0555556" />
-                            <point x="0.842857" y="0.101852" />
-                            <point x="0.914286" y="0.5" />
-                            <point x="0.871429" y="0.916667" />
-                            <point x="0.5" y="0.962963" />
-                            <point x="0.128571" y="0.916667" />
-                            <point x="0.0571429" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="metal" pingpong="0" repeatcount="1" repeatto="0" sid="7717222886826855" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\pr_Blue_Garbage.png">
-                        <collision-poly>
-                            <point x="0.128571" y="0.0833333" />
-                            <point x="0.5" y="0.0555556" />
-                            <point x="0.842857" y="0.101852" />
-                            <point x="0.914286" y="0.5" />
-                            <point x="0.871429" y="0.916667" />
-                            <point x="0.5" y="0.962963" />
-                            <point x="0.128571" y="0.916667" />
-                            <point x="0.0571429" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -504,14 +408,11 @@
         <event-sheet>StartScreenEvents.xml</event-sheet>
         <event-sheet>spawns.xml</event-sheet>
         <event-sheet>Avalancha.xml</event-sheet>
-        <event-sheet>trash.xml</event-sheet>
-        <event-sheet>bars.xml</event-sheet>
-        <event-sheet>Basureros.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="22" />
-        <global-instance type="Mouse" uid="23" />
-        <global-instance type="Audio" uid="28">
+        <global-instance type="Keyboard" uid="21" />
+        <global-instance type="Mouse" uid="22" />
+        <global-instance type="Audio" uid="23">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
