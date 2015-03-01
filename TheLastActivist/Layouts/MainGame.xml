@@ -374,7 +374,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="inorganic" uid="18">
+                <instance type="organic" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -399,8 +399,8 @@
                         <x>234</x>
                         <y>-219</y>
                         <z>0</z>
-                        <width>36</width>
-                        <height>32</height>
+                        <width>56</width>
+                        <height>58</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

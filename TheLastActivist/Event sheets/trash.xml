@@ -31,7 +31,7 @@
         </event-block>
         <event-block sid="3965149127251496">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="1376380038534269" type="inorganic">
+                <condition id="0" name="On collision with another object" sid="1376380038534269" type="organic">
                     <param id="0" name="Object">Sprite</param>
                 </condition>
                 <condition id="-21" name="Is between values" sid="5168404738865238" type="System">
@@ -49,10 +49,10 @@
                     <param id="2" name="Tag (optional)">&quot;RECOGE_ORGANICO&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="4848318065576068" type="System">
-                    <param id="0" name="Variable">cant_inorga</param>
+                    <param id="0" name="Variable">cant_orga</param>
                     <param id="1" name="Value">10</param>
                 </action>
-                <action id="-9" name="Destroy" sid="2347492047533679" type="inorganic" />
+                <action id="-9" name="Destroy" sid="2347492047533679" type="organic" />
             </actions>
         </event-block>
     </events>

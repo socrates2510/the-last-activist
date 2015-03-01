@@ -5,14 +5,22 @@
     <events>
         <include>NPC</include>
         <include>Avalancha</include>
-        <variable constant="0" name="MAX_VELOCIDAD_PC" sid="9492884753792322" static="0" type="number">300</variable>
-        <variable constant="0" name="VelocidadPC" sid="5520477415701656" static="0" type="number">300</variable>
-        <variable constant="1" name="AREA_PC_OFFSET_Y" sid="4069807062400402" static="0" type="number">20</variable>
-        <variable constant="1" name="AREA_PC_ALTO" sid="9493546692433394" static="0" type="number">250</variable>
+        <variable constant="0" name="MAX_VELOCIDAD_PC" sid="9492884753792322" static="0" type="number">600</variable>
+        <variable constant="0" name="VelocidadPC" sid="5520477415701656" static="0" type="number">600</variable>
+        <variable constant="1" name="AREA_PC_OFFSET_Y" sid="4069807062400402" static="0" type="number">100</variable>
+        <variable constant="1" name="AREA_PC_ALTO" sid="9493546692433394" static="0" type="number">450</variable>
         <variable comment="Ancho en donde puede moverse el PC" constant="1" name="AREA_PC_ANCHO" sid="4918247545106444" static="0" type="number">760</variable>
         <variable constant="0" name="MAX_GLOBAL_SPEED" sid="4600837841753073" static="0" type="number">500</variable>
-        <variable comment="Global World Speed" constant="0" name="GlobalSpeed" sid="4153829412183678" static="0" type="number">500</variable>
+        <variable comment="Global World Speed" constant="0" name="GlobalSpeed" sid="4153829412183678" static="0" type="number">300</variable>
+        <comment>Variables barras</comment>
+        <variable constant="0" name="cant_glass" sid="1351061340978544" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_orga" sid="1891848451386563" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_metal" sid="8030166768153061" static="0" type="number">0</variable>
+        <variable constant="0" name="cant_inorga" sid="8952754647196862" static="0" type="number">0</variable>
         <include>StartScreenEvents</include>
+        <include>trash</include>
+        <include>bars</include>
+        <include>Avalancha</include>
         <include>Parallax</include>
         <include>PC</include>
         <include>spawns</include>
