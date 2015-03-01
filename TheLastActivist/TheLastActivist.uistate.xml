@@ -10,13 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+        <layout active="1" order="0">Start_Screen</layout>
         <layout order="2">MainGame</layout>
-        <layout order="0">Start_Screen</layout>
-        <event-sheet order="3">MainGameEvents</event-sheet>
-        <event-sheet active="1" order="4">Parallax</event-sheet>
-        <event-sheet order="5">PC</event-sheet>
         <event-sheet order="1">StartScreenEvents</event-sheet>
+        <event-sheet order="3">MainGameEvents</event-sheet>
+        <event-sheet order="4">Parallax</event-sheet>
+        <event-sheet order="5">PC</event-sheet>
         <event-sheet order="6">Avalancha</event-sheet>
+        <event-sheet order="7">spawns</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +30,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
@@ -37,7 +38,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/RightTrees/" />
         <folder expanded="1" path="animation-folder/LeftSprite/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/PlayerIntro/" />
         <folder expanded="1" path="animation-folder/Logo/" />
         <folder expanded="1" path="animation-folder/Avalanch/" />
         <folder expanded="1" path="animation-folder/inorganic/" />

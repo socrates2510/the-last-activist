@@ -72,11 +72,11 @@
                 <condition id="0" name="On clicked" sid="2827842062896209" type="Play" />
             </conditions>
             <actions>
-                <action id="-13" name="Set boolean" sid="7452279614407423" type="Player">
+                <action id="-13" name="Set boolean" sid="7452279614407423" type="PlayerIntro">
                     <param id="0" name="Instance variable">running</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="5875289107370191" type="Player">
+                <action id="4" name="Set animation" sid="5875289107370191" type="PlayerIntro">
                     <param id="0" name="Animation">&quot;running&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -84,13 +84,13 @@
         </event-block>
         <event-block sid="3609296980008051">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="5138879372154564" type="Player">
+                <condition id="-8" name="Is boolean instance variable set" sid="5138879372154564" type="PlayerIntro">
                     <param id="0" name="Instance variable">running</param>
                 </condition>
                 <condition id="-1" name="Every tick" sid="9555724119204871" type="System" />
             </conditions>
             <actions>
-                <action id="-23" name="Move at angle" sid="5019721101339546" type="Player">
+                <action id="-23" name="Move at angle" sid="5019721101339546" type="PlayerIntro">
                     <param id="0" name="Angle">-90</param>
                     <param id="1" name="Distance">300*dt</param>
                 </action>
@@ -98,7 +98,7 @@
         </event-block>
         <event-block sid="5720893630368761">
             <conditions>
-                <condition id="-4" name="Is outside layout" sid="8436699653920874" type="Player" />
+                <condition id="-4" name="Is outside layout" sid="8436699653920874" type="PlayerIntro" />
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="8409676049344358" type="System">

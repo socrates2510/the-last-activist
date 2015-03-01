@@ -20,7 +20,5 @@
         <include>Parallax</include>
         <include>PC</include>
         <include>spawns</include>
-        <include>trash</include>
-        <include>bars</include>
     </events>
 </c2eventsheet>
