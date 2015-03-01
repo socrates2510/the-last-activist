@@ -10,7 +10,7 @@
         <comment>If the player is touching the screen, move towards the touch position.  Only move the player if they are further away from the touch than it is going to move - this avoids an unpleasent jittering when reaching the touch position.</comment>
         <event-block sid="955226323518756">
             <conditions>
-                <condition id="2" name="Is in touch" sid="1368472832197539" type="Touch" />
+                <condition id="-29" name="On load complete" sid="1368472832197539" type="System" />
                 <condition id="-8" name="Compare two values" sid="7318517829314415" type="System">
                     <param id="0" name="First value">distance(Player.X, Player.Y, Touch.X, Touch.Y)</param>
                     <param id="1" name="Comparison">5</param>
@@ -21,6 +21,12 @@
                 <action id="-23" name="Move at angle" sid="1899138118327043" type="Player">
                     <param id="0" name="Angle">angle(Self.X, Self.Y, Touch.X, Touch.Y)</param>
                     <param id="1" name="Distance">600 * dt</param>
+                </action>
+                <action id="0" name="Play" sid="9777853444076856" type="Audio">
+                    <param id="0" name="Audio file">BACK_GROUND3</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">80</param>
+                    <param id="1" name="Tag (optional)">&quot;main music&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -69,6 +75,12 @@
                 </action>
                 <action behavior="Bullet" id="5" name="Set enabled" sid="1184306219540517" type="une1">
                     <param id="0" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="2253521437665592" type="Audio">
+                    <param id="0" name="Audio file">CLAP</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">100</param>
+                    <param id="1" name="Tag (optional)">&quot;clap&quot;</param>
                 </action>
             </actions>
         </event-block>

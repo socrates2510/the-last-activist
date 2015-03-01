@@ -501,17 +501,14 @@
         <event-sheet>MainGameEvents.xml</event-sheet>
         <event-sheet>Parallax.xml</event-sheet>
         <event-sheet>PC.xml</event-sheet>
-        <event-sheet>StartScreenEvents.xml</event-sheet>
-        <event-sheet>spawns.xml</event-sheet>
-        <event-sheet>Avalancha.xml</event-sheet>
-        <event-sheet>trash.xml</event-sheet>
-        <event-sheet>bars.xml</event-sheet>
         <event-sheet>Basureros.xml</event-sheet>
+        <event-sheet>StartScreenEvents.xml</event-sheet>        		   <event-sheet>spawns.xml</event-sheet>
+        <event-sheet>Avalancha.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="22" />
-        <global-instance type="Mouse" uid="23" />
-        <global-instance type="Audio" uid="28">
+        <global-instance type="Keyboard" uid="18" />
+        <global-instance type="Mouse" uid="20" />
+        <global-instance type="Audio" uid="21">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>

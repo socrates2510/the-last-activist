@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>MainGame</name>
     <sid>6750273694802828</sid>
@@ -82,11 +82,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>49</x>
-                        <y>249</y>
+                        <x>38.5</x>
+                        <y>234.5</y>
                         <z>0</z>
-                        <width>105</width>
-                        <height>648</height>
+                        <width>84</width>
+                        <height>677</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -195,8 +195,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>731</x>
-                        <y>-1</y>
+                        <x>630</x>
+                        <y>118</y>
                         <z>0</z>
                         <width>54</width>
                         <height>36</height>
@@ -233,14 +233,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>476</x>
-                        <y>351</y>
+                        <x>480.023071289</x>
+                        <y>345.578826904</y>
                         <z>0</z>
-                        <width>80.879547119</width>
-                        <height>53.919692993</height>
+                        <width>87</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.517857134</hotspotY>
+                        <hotspotY>0.5090909</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -328,36 +328,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>332</x>
-                        <y>357</y>
-                        <z>0</z>
-                        <width>40</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0.324999988</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-
                 <instance type="BasureroOrganico" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -498,8 +468,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>991</x>
-                        <y>236</y>
+                        <x>994</x>
+                        <y>257</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
@@ -543,14 +513,6 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances>
-        <instance type="Array" uid="13">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-        </instance>
-    </nonworld-instances>
+    <nonworld-instances />
     <effects />
 </c2layout>

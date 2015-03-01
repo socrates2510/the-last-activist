@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>bars</name>
+    <events>
+        <event-block sid="4301949742781015">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3291843377890265" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="2928857753539335" type="bar_glass">
+                    <param id="0" name="Width">cant_glass</param>
+                </action>
+                <action id="-5" name="Set width" sid="3219210292119155" type="bar_inorga">
+                    <param id="0" name="Width">cant_inorga</param>
+                </action>
+                <action id="-5" name="Set width" sid="8359988706929429" type="bar_orga">
+                    <param id="0" name="Width">cant_orga</param>
+                </action>
+                <action id="-5" name="Set width" sid="983196088039967" type="bar_metal">
+                    <param id="0" name="Width">cant_metal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
