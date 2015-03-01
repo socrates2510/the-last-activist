@@ -52,7 +52,7 @@
                 <instance type="Play" uid="16">
                     <properties>
                         <type>Button</type>
-                        <text>Play</text>
+                        <text></text>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
@@ -63,11 +63,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>409</x>
-                        <y>407</y>
+                        <x>425</x>
+                        <y>391</y>
                         <z>0</z>
-                        <width>133</width>
-                        <height>59</height>
+                        <width>106</width>
+                        <height>99</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -92,7 +92,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="19">
+                <instance type="PlayerIntro" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -154,6 +154,47 @@
                         <depth>0</depth>
                         <hotspotX>0.500751853</hotspotX>
                         <hotspotY>0.50666666</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Text_Play" sid="886884833734793">
+            <initially-visible>1</initially-visible>
+            <background-color>102,51,0</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Play_button" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>477</x>
+                        <y>440</y>
+                        <z>0</z>
+                        <width>111</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504504502</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
