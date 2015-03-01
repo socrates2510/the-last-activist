@@ -36,22 +36,47 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="6399740764277835" type="Sprite">
-                    <param id="0" name="Animation">&quot;Muerte&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-3" name="Set position" sid="4754970760771158" type="Avalanch">
+                    <param id="0" name="X">Avalanch.X</param>
+                    <param id="1" name="Y">Avalanch.Y</param>
                 </action>
                 <action id="2" name="Set muted" sid="1841209389473154" type="Audio">
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
-                <action id="0" name="Play" sid="9539815456990248" type="Audio">
-                    <param id="0" name="Audio file">GRITO_PEDO</param>
+                <action id="0" name="Play" sid="1686002858457422" type="Audio">
+                    <param id="0" name="Audio file">GAME_OVER</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;Game Over&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;Game_Over&quot;</param>
                 </action>
+                <action id="4" name="Set animation" sid="6399740764277835" type="Sprite">
+                    <param id="0" name="Animation">&quot;Muerte&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2128774100742014" type="Sprite">
+                    <param id="0" name="Instance variable">player_death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5697306657516178">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="1779187293194646" type="Sprite">
+                    <param id="0" name="Instance variable">player_death</param>
+                </condition>
+                <condition id="11" name="Collisions enabled" sid="9210573093610572" type="Avalanch" />
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="2393460889295408" type="Avalanch">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8747252663543681" type="Game_Over">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" sid="6712225987597136" type="Game_Over" />
                 <action id="-16" name="Wait" sid="9456227716081384" type="System">
-                    <param id="0" name="Seconds">3</param>
+                    <param id="0" name="Seconds">5</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="1145602463377198" type="System">
                     <param id="0" name="Layout">Start_Screen</param>

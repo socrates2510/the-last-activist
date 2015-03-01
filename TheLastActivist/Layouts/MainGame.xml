@@ -594,6 +594,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <player_death>false</player_death>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Flash" />
                     </behavior-instances>
@@ -603,11 +606,11 @@
                         <x>423</x>
                         <y>334</y>
                         <z>0</z>
-                        <width>82</width>
-                        <height>55</height>
+                        <width>85</width>
+                        <height>63</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5090909</hotspotY>
+                        <hotspotX>0.505882382</hotspotX>
+                        <hotspotY>0.507936537</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -622,8 +625,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>877.456726074</x>
-                        <y>36.092544556</y>
+                        <x>761.668029785</x>
+                        <y>35.575531006</y>
                         <z>0</z>
                         <width>114</width>
                         <height>34</height>
@@ -644,7 +647,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>760.358947754</x>
+                        <x>878.664611816</x>
                         <y>35.9115448</y>
                         <z>0</z>
                         <width>114</width>
@@ -728,12 +731,45 @@
                         <x>274</x>
                         <y>143</y>
                         <z>0</z>
-                        <width>80</width>
-                        <height>34</height>
+                        <width>82.926826477</width>
+                        <height>38.945453644</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>0.4909091</hotspotY>
+                        <hotspotY>0.492063493</hotspotY>
                         <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Game_Over" uid="35">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>3</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>508.944366455</x>
+                        <y>121.487747192</y>
+                        <z>0</z>
+                        <width>665</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500751853</hotspotX>
+                        <hotspotY>0.50666666</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
