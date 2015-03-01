@@ -11,28 +11,19 @@
                 <condition id="-21" name="Is between values" sid="3031447144426011" type="System">
                     <param id="0" name="Value">cant_metal</param>
                     <param id="1" name="Lower bound">0</param>
-                    <param id="2" name="Upper bound">99</param>
+                    <param id="2" name="Upper bound">100</param>
                 </condition>
             </conditions>
             <actions>
-<<<<<<< HEAD
                 <action id="0" name="Play" sid="9211098038740216" type="Audio">
                     <param id="0" name="Audio file">RECOGE_METAL</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
-=======
-                <action id="7" name="Play (by name)" sid="3037026853268533" type="Audio">
-                    <param id="0" name="Folder">0</param>
-                    <param id="1" name="Audio file name">&quot;RECOGE_METAL&quot;</param>
-                    <param id="3" name="Loop">0</param>
-                    <param id="4" name="Volume">0</param>
-                    <param id="2" name="Tag (optional)">&quot;RECOGE_METAL&quot;</param>
->>>>>>> ae7cc184795fb4dbeddddc4aad2317679fcfddd8
                 </action>
                 <action id="-10" name="Add to" sid="2635778289472949" type="System">
                     <param id="0" name="Variable">cant_metal</param>
-                    <param id="1" name="Value">10</param>
+                    <param id="1" name="Value">20</param>
                 </action>
                 <action id="-9" name="Destroy" sid="9982720824127625" type="metal" />
             </actions>
@@ -45,7 +36,7 @@
                 <condition id="-21" name="Is between values" sid="5168404738865238" type="System">
                     <param id="0" name="Value">cant_orga</param>
                     <param id="1" name="Lower bound">0</param>
-                    <param id="2" name="Upper bound">99</param>
+                    <param id="2" name="Upper bound">100</param>
                 </condition>
             </conditions>
             <actions>
@@ -57,7 +48,7 @@
                 </action>
                 <action id="-10" name="Add to" sid="4848318065576068" type="System">
                     <param id="0" name="Variable">cant_orga</param>
-                    <param id="1" name="Value">10</param>
+                    <param id="1" name="Value">20</param>
                 </action>
                 <action id="-9" name="Destroy" sid="2347492047533679" type="organic" />
             </actions>

@@ -140,5 +140,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2563502418633701">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9021947069841379" type="Avalanch">
+                    <param id="0" name="Object">follower</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5478797245286891" type="follower" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
