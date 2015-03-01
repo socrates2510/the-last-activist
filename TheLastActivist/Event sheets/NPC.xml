@@ -73,5 +73,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1433631730524141">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2352222483969642" type="follower">
+                    <param id="0" name="Object">Avalanch</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1588482284101526" type="Audio">
+                    <param id="0" name="Audio file">GRITO_PEDO</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4009033387284659" type="follower" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
