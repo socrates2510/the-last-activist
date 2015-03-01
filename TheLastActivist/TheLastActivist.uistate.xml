@@ -11,12 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">MainGame</layout>
-        <layout active="1" order="3">Start_Screen</layout>
+        <layout order="3">Start_Screen</layout>
         <event-sheet order="1">trash</event-sheet>
         <event-sheet order="2">MainGameEvents</event-sheet>
         <event-sheet order="4">bars</event-sheet>
         <event-sheet order="5">Avalancha</event-sheet>
         <event-sheet order="6">StartScreenEvents</event-sheet>
+        <event-sheet active="1" order="7">NPC</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -46,6 +47,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bar_metal/" />
         <folder expanded="1" path="animation-folder/bar_orga/" />
         <folder expanded="1" path="animation-folder/bar_glass/" />
+        <folder expanded="1" path="animation-folder/follower/" />
         <folder expanded="1" path="animation-folder/metal_bar/" />
         <folder expanded="1" path="animation-folder/glass_bar/" />
         <folder expanded="1" path="animation-folder/inorga_bar/" />

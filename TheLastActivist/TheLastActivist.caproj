@@ -435,6 +435,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="follower" sid="5247067628745368">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="follower" sid="134417302334308" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="9969522238118103">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1164177562573293" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.490909" />
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="metal_bar" sid="2410644009619354">
             <plugin id="Sprite" />
             <animation-folder>
@@ -567,13 +583,14 @@
         <event-sheet>StartScreenEvents.xml</event-sheet>
         <event-sheet>spawns.xml</event-sheet>
         <event-sheet>Avalancha.xml</event-sheet>
+        <event-sheet>NPC.xml</event-sheet>
         <event-sheet>trash.xml</event-sheet>
         <event-sheet>bars.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="22" />
-        <global-instance type="Mouse" uid="23" />
-        <global-instance type="Audio" uid="28">
+        <global-instance type="Keyboard" uid="23" />
+        <global-instance type="Mouse" uid="28" />
+        <global-instance type="Audio" uid="33">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
