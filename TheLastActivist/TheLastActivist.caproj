@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>TheLastActivist</name>
     <description></description>
@@ -17,7 +17,9 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -273,6 +275,82 @@
         <object-type name="Audio" sid="5150081392975576">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="inorganic" sid="9645078174957859">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="9328876949693407">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="img1" pingpong="0" repeatcount="1" repeatto="0" sid="3696526210682245" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\manzana01.png">
+                        <collision-poly>
+                            <point x="0.222222" y="0.75" />
+                            <point x="0.166667" y="0.5" />
+                            <point x="0.277778" y="0.3125" />
+                            <point x="0.5" y="0.4375" />
+                            <point x="0.861111" y="0.15625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.638889" y="0.59375" />
+                            <point x="0.5" y="0.90625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="2126052056016339" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\banano01.png">
+                        <collision-poly>
+                            <point x="0.416667" y="0.583333" />
+                            <point x="0.0555556" y="0.5" />
+                            <point x="0.333333" y="0.333333" />
+                            <point x="0.5" y="0.138889" />
+                            <point x="0.916667" y="0.0833333" />
+                            <point x="0.861111" y="0.5" />
+                            <point x="0.861111" y="0.861111" />
+                            <point x="0.5" y="0.583333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="metal" sid="5805077915704679">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="4805084592762756">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="img1" pingpong="0" repeatcount="1" repeatto="0" sid="401445066260781" speed="5">
+                    <frame duration="1" hotspotX="0.472222" hotspotY="0.48" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\cerveza_azul.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.76" />
+                            <point x="0.0277778" y="0.48" />
+                            <point x="0.111111" y="0.2" />
+                            <point x="0.444444" y="0.08" />
+                            <point x="0.888889" y="0.08" />
+                            <point x="0.972222" y="0.48" />
+                            <point x="0.861111" y="0.84" />
+                            <point x="0.444444" y="0.84" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="img2" pingpong="0" repeatcount="1" repeatto="0" sid="4653323459473519" speed="5">
+                    <frame duration="1" hotspotX="0.486486" hotspotY="0.48" original-source="C:\Users\TAPON\Desktop\GAME\the-last-activist\Imagenes\cerveza_dorada.png">
+                        <collision-poly>
+                            <point x="0.135135" y="0.76" />
+                            <point x="0.054054" y="0.48" />
+                            <point x="0.135135" y="0.2" />
+                            <point x="0.459459" y="0.08" />
+                            <point x="0.891892" y="0.08" />
+                            <point x="0.972973" y="0.48" />
+                            <point x="0.864865" y="0.84" />
+                            <point x="0.459459" y="0.84" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -283,7 +361,7 @@
         <event-sheet>MainGameEvents.xml</event-sheet>
         <event-sheet>Parallax.xml</event-sheet>
         <event-sheet>PC.xml</event-sheet>
-        <event-sheet>StartScreenEvents.xml</event-sheet>
+        <event-sheet>StartScreenEvents.xml</event-sheet>        		   <event-sheet>spawns.xml</event-sheet>
         <event-sheet>Avalancha.xml</event-sheet>
     </event-folder>
     <global-instances>
