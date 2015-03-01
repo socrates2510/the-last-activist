@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>NPC</name>
+    <events>
+        <event-block sid="7552595958268153">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="295273214573621" type="follower">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="2037090256733576" type="follower">
+                    <param id="0" name="Instance variable">follower</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
