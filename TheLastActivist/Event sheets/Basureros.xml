@@ -43,6 +43,14 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-10" name="Set value" sid="5605153873771675" type="Animals">
+                    <param id="0" name="Instance variable">tipoMensaje</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6544958747540002" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2796147051764072">
@@ -69,6 +77,14 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Set value" sid="5842233890042033" type="Animals">
+                    <param id="0" name="Instance variable">tipoMensaje</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="3067277707770726" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -97,6 +113,14 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-10" name="Set value" sid="8275725633371364" type="Animals">
+                    <param id="0" name="Instance variable">tipoMensaje</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7401244466160802" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9207282321311907">
@@ -123,6 +147,14 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Set value" sid="8568413874466799" type="Animals">
+                    <param id="0" name="Instance variable">tipoMensaje</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="5182660958518661" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -257,6 +289,69 @@
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="3650010946611052">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3843451420234774" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3396217085406687" type="Animals">
+                    <param id="0" name="Instance variable">conMensaje</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="3560783629735748" type="Animals">
+                    <param id="0" name="X">1010</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="493107120102369" type="Animals">
+                    <param id="0" name="Instance variable">conMensaje</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1197784863049759">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3349293960022851" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="9027072421928447" type="Animals">
+                    <param id="0" name="Instance variable">conMensaje</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-23" name="Move at angle" sid="5293343100384016" type="Animals">
+                    <param id="0" name="Angle">180</param>
+                    <param id="1" name="Distance">300*dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4762894955248689">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="2738266661921502" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6741513938078454" type="Animals">
+                    <param id="0" name="Instance variable">conMensaje</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="3239915049387001" type="Animals">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">1000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="6310156209232976" type="Animals">
+                    <param id="0" name="Instance variable">startMoving</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="83201373839729" type="Animals">
+                    <param id="0" name="Instance variable">conMensaje</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4386237724538684">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
