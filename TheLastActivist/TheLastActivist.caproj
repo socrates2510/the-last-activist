@@ -319,7 +319,7 @@
         <object-type name="Audio" sid="5150081392975576">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="inorganic" sid="9645078174957859">
+        <object-type name="organic" sid="9645078174957859">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="9328876949693407">

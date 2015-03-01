@@ -6,14 +6,14 @@
         <event-block sid="5510862433606371">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="7765281755932312" type="Avalanch">
-                    <param id="0" name="Object">inorganic</param>
+                    <param id="0" name="Object">organic</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Set Y" sid="6849543181652762" type="Avalanch">
                     <param id="0" name="Y">Avalanch.Y-20</param>
                 </action>
-                <action id="-9" name="Destroy" sid="2313484329388923" type="inorganic" />
+                <action id="-9" name="Destroy" sid="2313484329388923" type="organic" />
             </actions>
         </event-block>
         <event-block sid="3401038605793204">
