@@ -80,6 +80,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-2" name="Set Y" sid="7296150010561531" type="Avalanch">
+                    <param id="0" name="Y">Avalanch.Y+40</param>
+                </action>
                 <action id="0" name="Play" sid="1588482284101526" type="Audio">
                     <param id="0" name="Audio file">GRITO_PEDO</param>
                     <param id="2" name="Loop">0</param>

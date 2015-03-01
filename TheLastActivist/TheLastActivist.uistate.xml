@@ -10,13 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">MainGame</layout>
-        <event-sheet order="1">Basureros</event-sheet>
-        <event-sheet order="2">Avalancha</event-sheet>
-        <event-sheet active="1" order="3">NPC</event-sheet>
-        <event-sheet order="4">obstaculos</event-sheet>
-        <event-sheet order="5">StartScreenEvents</event-sheet>
-        <event-sheet order="6">MainGameEvents</event-sheet>
+
+        <layout active="1" order="0">MainGame</layout>
+        <layout order="3">Start_Screen</layout>
+        <event-sheet order="1">MainGameEvents</event-sheet>
+        <event-sheet order="2">Parallax</event-sheet>
+
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
@@ -57,5 +56,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/basureros/" />
         <folder expanded="1" path="animation-folder/glass/" />
         <folder expanded="1" path="animation-folder/inorganic/" />
+        <folder expanded="1" path="animation-folder/Animals/" />
     </folders-expanded>
 </c2uistate>

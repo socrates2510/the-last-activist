@@ -7,7 +7,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" sid="9679158941053354" type="Ground">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">809</param>
+                    <param id="1" name="Y co-ordinate">909</param>
                 </condition>
             </conditions>
             <actions>
@@ -21,7 +21,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" sid="2280950358131402" type="LeftSprite">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">634</param>
+                    <param id="1" name="Y co-ordinate">734</param>
                 </condition>
             </conditions>
             <actions>
@@ -35,7 +35,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" sid="8221526761579707" type="RightTrees">
                     <param id="0" name="Comparison">5</param>
-                    <param id="1" name="Y co-ordinate">634</param>
+                    <param id="1" name="Y co-ordinate">734</param>
                 </condition>
             </conditions>
             <actions>
