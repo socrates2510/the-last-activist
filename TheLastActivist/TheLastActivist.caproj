@@ -255,7 +255,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2594691477592685" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_anim_01.png">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.507937" original-source="C:\Users\cloaiza\Downloads\GitPortable\Data\home\the-last-activist\Imagenes\main_final_01.png">
                         <collision-poly>
                             <point x="0.243902" y="0.363636" />
                             <point x="0.5" y="0.163636" />
@@ -950,6 +950,11 @@
         </object-type>
         <object-type name="Animals" sid="4933468375457178">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="startMoving" sid="162909495971326" type="boolean" />
+                <instance-variable name="conMensaje" sid="8124404979770673" type="boolean" />
+                <instance-variable name="tipoMensaje" sid="1034051026522422" type="number" />
+            </instance-variables>
             <animation-folder>
                 <animation framecount="3" loop="1" name="anim1" pingpong="0" repeatcount="1" repeatto="0" sid="6451353758070544" speed="5">
                     <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\ardilla01.png">
@@ -1030,6 +1035,25 @@
         </object-type>
         <object-type global="1" name="Array" sid="6386471085267196">
             <plugin id="Arr" />
+        </object-type>
+        <object-type name="Sprite2" sid="5715334266060796">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9291890560047924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501305" original-source="C:\Users\apizarro\Documents\TheLastActivist\Imagenes\PRINCIPAL_01.png">
+                        <collision-poly>
+                            <point x="0.0328084" y="0.0652741" />
+                            <point x="0.5" y="0.921671" />
+                            <point x="0.967192" y="0.0652741" />
+                            <point x="0.979003" y="0.498695" />
+                            <point x="0.879265" y="0.759791" />
+                            <point x="0.5" y="0.94517" />
+                            <point x="0.12336" y="0.754569" />
+                            <point x="0.0170604" y="0.498695" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

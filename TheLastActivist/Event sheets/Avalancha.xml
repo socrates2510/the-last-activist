@@ -136,6 +136,9 @@
                 <action id="-2" name="Go to layout" sid="1145602463377198" type="System">
                     <param id="0" name="Layout">Start_Screen</param>
                 </action>
+                <action id="1" name="Set blend mode" sid="3280727275703014" type="Sprite">
+                    <param id="0" name="Blend mode">0</param>
+                </action>
                 <action id="2" name="Set muted" sid="2314385382283122" type="Audio">
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
                     <param id="1" name="State">1</param>
